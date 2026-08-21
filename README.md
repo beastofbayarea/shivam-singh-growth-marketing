@@ -2,6 +2,11 @@
 
 Role-targeted resume for product-led growth, demand generation, lifecycle marketing, experimentation, and international expansion.
 
+## Profile
+
+- Email: [shiv-growth-mkt@umich.edu](mailto:shiv-growth-mkt@umich.edu)
+- [LinkedIn](https://www.linkedin.com/in/beastofbayarea)
+
 ## Resume formats
 
 - [View the PDF](./shivam-singh-growth-marketing.pdf)
@@ -57,7 +62,3 @@ Stories are grouped by their primary resume experience in reverse chronological 
 
 - [B2B cloud paid growth: funnel recovery](./projects/b2b-cloud-paid-growth-funnel-recovery.md) - performance-funnel audit, CRO, channel economics, and controlled acquisition recovery
 
-## Profile
-
-- Email: [shiv-growth-mkt@umich.edu](mailto:shiv-growth-mkt@umich.edu)
-- [LinkedIn](https://www.linkedin.com/in/beastofbayarea)

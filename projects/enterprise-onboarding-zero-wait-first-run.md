@@ -1,56 +1,28 @@
-# Enterprise Onboarding — Zero-Wait First-Run Experience
+# Enterprise Onboarding - Zero-Wait First-Run Experience
 
-> **Portfolio lens:** Activation, retention, first-value conversion, lifecycle telemetry, and global onboarding.
+> **Document type:** Externally grounded interview case reconstruction, not a claim of an independently verified completed engagement.
+>
+> **Timeline alignment:** The [public Growth Marketing resume](https://github.com/beastofbayarea/shivam-singh-growth-marketing/blob/main/shivam-singh-growth-marketing.pdf) is used only to place this case within the Microsoft role dated 2020-2022.
 
-## Executive snapshot
+## Evidence-grounded premise
 
-Turned first-run performance into a growth lever by redesigning an enterprise product's authentication and synchronization handshake. Safe cached state, parallel validation, poor-network fallbacks, and a staged global rollout connected P95 latency directly to activation, retention, support load, and revenue protection.
+GOV.UK guidance says services should be researched continuously with actual users and designed around the outcome they need. WCAG 2.1 establishes accessible web and mobile interaction. Together they support onboarding that minimizes unnecessary setup, offers an accessible path to first value, and treats support demand as product evidence.
 
-## Resume-ready impact
+## Case approach
 
-- Identified first-session latency as a churn driver: affected users were three times more likely to leave, and 65% of churned users had encountered authentication errors.
-- Redesigned onboarding to render safe cached state while license validation and sync ran in parallel, reducing P95 handshake latency from 1,200 ms to 380 ms.
-- Increased activation from 62% to 81%, raised Day-30 retention 12%, and reduced weekly support tickets from 450 to 65.
+- Map the end-to-end path from invitation through the first meaningful completed task.
+- Remove fields, approvals, and waits that are not required for the initial outcome.
+- Provide progressive disclosure, accessible alternatives, clear status, and resumable progress.
+- Observe users across ability and support needs and iterate from failure evidence.
 
-## Interview story
+## Evidence-based success measures
 
-### Situation
+Use time to first value, task completion, accessibility defects, abandonment stage, support contacts, retry success, and repeated use. These are proposed measures, not historical results.
 
-Users encountered a frozen-feeling product before completing one meaningful action. Every additional 100 ms reduced activation 2.4%, yet the roadmap emphasized visible aesthetic features.
+## External source map
 
-### Task
-
-Protect the first-value journey across variable network conditions without bypassing authorization or creating global rollout risk.
-
-### Actions
-
-- Paused lower-impact aesthetic work and prioritized authentication, reliability, and time to first edit.
-- Separated safe presentation from permissioned action and parallelized the first-run sequence.
-- Tested sequential versus parallel flows on 5% of Brazil traffic with a feature flag and kill switch.
-- Added proactive degraded-mode guidance and a six-week regional launch work-back.
-
-### Results
-
-- Handshake latency fell 68%, from 1,200 ms to 380 ms.
-- Activation increased 19 percentage points to 81%.
-- Day-30 retention improved 12%.
-- Weekly tickets declined 85%, and the redesign protected an estimated $14M in ARR.
-
-## Decisions and trade-offs
-
-- Optimize P95 customer experience rather than average backend success.
-- Defer aesthetic roadmap work until users could reliably reach first value.
-- Design for 3G conditions and offer graceful degradation where network latency was outside product control.
-
-## Leadership signal
-
-Connected product, protocol engineering, lifecycle, support, localization, and commercial teams around a measurable activation-to-retention chain.
-
-## Skills and keywords
-
-growth marketing · onboarding · activation · retention · first value · lifecycle telemetry · P95 latency · experimentation · global rollout · ARR protection
-
-## Source
-
-[Original Notion project page](https://app.notion.com/p/2eff9e255f2180599faed6dba2c4c3cc)
-
+| Source | Contribution |
+|---|---|
+| [GOV.UK - User research for government services (2016)](https://www.gov.uk/service-manual/user-research/how-user-research-improves-service-design) | Primary user-needs and continuous-research methodology. |
+| [W3C - WCAG 2.1 (2018)](https://www.w3.org/TR/2018/REC-WCAG21-20180605/) | Primary accessibility standard. |
+| [Public resume](https://github.com/beastofbayarea/shivam-singh-growth-marketing/blob/main/shivam-singh-growth-marketing.pdf) | Work dates only. |

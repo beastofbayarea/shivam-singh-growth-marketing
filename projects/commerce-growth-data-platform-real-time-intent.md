@@ -1,55 +1,28 @@
 # Commerce Growth Data Platform - Real-Time Intent and Predictive Activation
 
-> **Portfolio lens:** Growth data infrastructure, customer identity, real-time intent, predictive activation, CAC efficiency, and conversion measurement.
+> **Document type:** Externally grounded interview case reconstruction, not a claim of an independently verified completed engagement.
+>
+> **Timeline alignment:** The [public Growth Marketing resume](https://github.com/beastofbayarea/shivam-singh-growth-marketing/blob/main/shivam-singh-growth-marketing.pdf) is used only to place this case within the Rakuten role dated 2023.
 
-## Executive snapshot
+## Evidence-grounded premise
 
-Led a 15 TB customer-data modernization spanning seven systems and turned it into a growth engine for a large commerce business. The program deliberately sequenced identity integrity before real-time pipelines and predictive activation, preventing faster ingestion from amplifying duplicate profiles, wasted media, and poor seller prioritization.
+The NIST Privacy Framework addresses privacy risk created by products that process personal data. METI's 2022 AI governance guidance emphasizes accountability, monitoring, and risk-based implementation. Together they support an intent platform that limits data to defined purposes, distinguishes observation from inference, and evaluates activation for both value and harm.
 
-## Resume-ready impact
+## Case approach
 
-- Reduced peak customer-signal latency from 26 hours to under 15 minutes while lowering infrastructure cost 30%.
-- Made golden-record identity resolution the first requirement after stress tests exposed duplicate profiles and roughly $2M in projected media waste.
-- Launched behavior-based propensity scoring that reduced CAC 20%, increased lead conversion from 1.8% to 5.4%, and raised recruited-seller first-year sales from $12K to $28K.
+- Define permitted growth purposes, necessary data, consent, retention, and accountable owners.
+- Separate observed behavior from inferred intent and expose confidence and freshness.
+- Test activation incrementally with holdouts and monitor unwanted targeting or customer harm.
+- Give customers and operators correction, suppression, and escalation paths.
 
-## Interview story
+## Evidence-based success measures
 
-### Situation
+Use data-purpose coverage, consent/retention exceptions, incremental activation, false-intent rate, suppression time, complaints, and model drift. These are proposed measures, not historical results.
 
-A large commerce business used stale signals and duplicate customer records during peak events. Growth teams duplicated targeting, sales prioritized static lists, and the original roadmap emphasized ingestion speed before identity quality and measurement trust.
+## External source map
 
-### Task
-
-Create a resilient growth-data platform that delivered current, trusted intent and measurable activation value across engineering, marketing, sales, finance, and merchant operations.
-
-### Actions
-
-- Used a two-week regional pilot to show that live intent produced three-times-higher conversion before approving the broader rebuild.
-- Recommended a three-week launch delay when a game day exposed ghost profiles, overlapping audiences, and conflicting targeting.
-- Implemented direct connectors, raw backup, streaming events, schema contracts, entity resolution, and a golden customer record.
-- Maintained a random 20% control group around predictive lead scoring to protect unconventional but valuable sellers and separate causal lift from correlation.
-
-### Results
-
-- Signal latency fell below 15 minutes, and infrastructure cost fell 30%.
-- CAC declined 20%, and lead conversion tripled to 5.4%.
-- Recruited-seller first-year sales increased from $12K to $28K.
-- The peak event ran with zero downtime and finished $25M above the Q4 sales target.
-
-## Decisions and trade-offs
-
-- Choose identity integrity over the original launch date.
-- Sequence identity, then pipelines, then predictive activation.
-- Use architecture game days and control cohorts to separate causal growth from correlation.
-
-## Leadership signal
-
-Created one commercial and technical scorecard across five functions, translating data quality from an engineering concern into audience trust, merchant growth, and revenue quality.
-
-## Skills and keywords
-
-growth data platform · customer identity · real-time intent · predictive activation · attribution · audience quality · CAC · conversion · merchant growth · experimentation · data governance
-
-## Source
-
-[Original Notion project page](https://app.notion.com/p/2f8f9e255f218045a721df236a1c6508)
+| Source | Contribution |
+|---|---|
+| [NIST - Privacy Framework 1.0 (2020)](https://www.nist.gov/privacy-framework/privacy-framework) | Primary privacy-risk, data-processing, and governance framework. |
+| [METI - Governance Guidelines for Implementation of AI Principles v1.1 (2022)](https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20220128_report.html) | Primary Japan-specific AI governance foundation. |
+| [Public resume](https://github.com/beastofbayarea/shivam-singh-growth-marketing/blob/main/shivam-singh-growth-marketing.pdf) | Work dates only. |

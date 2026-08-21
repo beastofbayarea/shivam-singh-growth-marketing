@@ -46,6 +46,12 @@ Stories are grouped by their primary resume experience in reverse chronological 
 - [Enterprise onboarding: zero-wait first run](./projects/enterprise-onboarding-zero-wait-first-run.md) - activation redesign and time-to-value reduction
 - [Enterprise GenAI: activation and retention](./projects/enterprise-genai-activation-retention.md) - lifecycle growth for repeat AI usage
 
+### The D. E. Shaw Group
+
+**Demand Generation Lead - FinTech Growth Analytics** | 2016 - 2020
+
+- [Institutional growth: retention and referral recovery](./projects/institutional-growth-retention-referral-recovery.md) - behavioral churn detection, lifecycle transparency, retention, referrals, and AUM growth
+
 ### McKinsey & Company
 
 **Business Analyst, Market Entry** | 2014 - 2016

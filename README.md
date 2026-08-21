@@ -22,6 +22,16 @@ Use the PDF for review and sharing. Use the DOCX for editable, ATS-friendly appl
 - [Too Good To Go paid-social strategy](./work-samples/too-good-to-go-paid-social-strategy.pptx) - incrementality, market prioritization, channel mix, and budget allocation
 - [Turing omnichannel lead-acquisition plan](./work-samples/turing-three-vertical-omnichannel-lead-acquisition-plan.pdf) - vertical-specific acquisition systems and channel strategy
 
+## Project interview stories
+
+Each story adapts a portfolio project to this role narrative, with resume-ready impact, interview framing, decisions, metrics, and a link to the source page.
+
+- [Enterprise onboarding: zero-wait first run](./projects/enterprise-onboarding-zero-wait-first-run.md) - activation redesign and time-to-value reduction
+- [Retail computer vision: self-serve PLG](./projects/retail-computer-vision-self-serve-plg.md) - product-led acquisition, activation, and expansion
+- [Enterprise GenAI: activation and retention](./projects/enterprise-genai-activation-retention.md) - lifecycle growth for repeat AI usage
+- [B2B cloud paid growth: funnel recovery](./projects/b2b-cloud-paid-growth-funnel-recovery.md) - conversion diagnosis, channel efficiency, and pipeline recovery
+- [Prime Student: global growth under a budget cut](./projects/prime-student-global-growth-budget-cut.md) - international growth prioritization and efficient allocation
+
 ## Profile
 
 - Email: [shiv-growth-mkt@umich.edu](mailto:shiv-growth-mkt@umich.edu)

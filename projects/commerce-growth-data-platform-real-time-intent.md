@@ -1,67 +1,75 @@
 # Sequencing identity, live intent, and seller activation for an AWS customer
 
-I led product and architecture strategy for a commerce customer-data program during my AWS role. I saw that marketers and sales teams were acting on stale behavior and duplicate customer identities. I worked with the customer’s shoppers and prospective sellers, data engineering, marketing, sales, finance, merchant operations, privacy teams, AWS architects, and executive owners.
+Faster data would have amplified the wrong customer.
 
-## Speed would have amplified the wrong customer
+The commerce client held 15 TB across seven systems. Routine batches took about 12 hours; peak signals arrived as much as 26 hours late. Marketing could advertise products already purchased, sales worked stale seller lists, and one person appeared under multiple POS, commerce, CRM, and web identifiers.
 
-The customer held 15 terabytes across seven systems. Normal batches took about 12 hours and peak signals arrived as much as 26 hours late. Marketing could target products a shopper had already bought; sales worked from static seller lists; and one person could appear under several point-of-sale, commerce, CRM, or web identifiers.
+During my AWS role, I led the product/architecture strategy across customer teams, data engineering, marketing, sales, finance, merchant operations, privacy, AWS architects, and executives.
 
-The initial roadmap prioritized faster ingestion. I changed the product sequence to:
+## I reordered the roadmap
 
-1. define who the person or business is and which uses are permitted;
-2. move current, governed signals against that identity; then
-3. predict and activate only with a protected comparison group.
+The original priority was ingestion speed. I set a different sequence:
 
-A two-week Vietnam pilot gave one sales cohort live intent alerts and reported three times the conversion of stale-signal peers. It justified deeper investigation, not the entire eight-month rebuild: the source does not retain cohort size, assignment, or whether the pilot population matched the later rollout.
+1. resolve who the customer or business is and which uses are permitted;
+2. move current governed signals against that identity;
+3. predict and activate through a measured holdout.
 
-## A game day changed the launch decision
+A two-week Vietnam pilot gave one sales cohort live intent and reported 3× conversion versus stale-signal peers. It justified exploration, not an eight-month rebuild: assignment, cohort size, and later-population comparability were not retained.
 
-Peak testing exposed “ghost profiles.” Faster point-of-sale ingestion created new identifiers that did not resolve to existing customers, and overlapping segments sent contradictory ads. CTR declined 15% during the test, and the customer projected roughly $2 million of media waste.
+## The game day produced a reason to delay growth
 
-I recommended delaying launch by three weeks. Temporary, manually curated segments kept holiday campaigns operating while data owners established the golden-record rule, match hierarchy, survivorship logic, consent and purpose checks, conflict resolution, and stewardship.
+Peak testing created “ghost profiles.” Faster POS feeds generated identifiers that failed to resolve to existing customers, overlapping segments sent contradictory messages, and CTR fell 15%. The client modeled ~$2 million of media waste.
 
-I delayed the launch to protect growth from bad identity at peak season, then set the architecture and operating sequence that earned it back. The program joined a 26-hour freshness problem, customer resolution, streaming and replay, privacy purpose, model treatment, seller activation, sales action, and Finance's commercial account—so a three-week delay could unlock sub-15-minute intent and a threefold seller-lead conversion result without multiplying duplicate customers.
+I recommended a three-week delay. Curated temporary segments kept holiday campaigns running while teams established the match hierarchy, golden-record rule, survivorship, consent/purpose checks, conflict resolution, and stewardship.
 
-The $2 million was a customer forecast of avoidable spend, not a realized loss or saving. The decision to delay belonged to the customer; I owned the diagnosis, architectural recommendation, sequencing, and executive evidence.
+That was the critical growth decision: accept a bounded schedule cost to stop real-time infrastructure from multiplying identity error at peak. The $2 million remained a forecast, not a realized saving.
 
 ## The platform contract
 
-**Identity layer.** Source identifiers, deterministic and probabilistic match evidence, consent state, purpose, lineage, confidence, and an owner for conflict. A golden record did not erase source records; it linked them with a reversible decision.
+### Identity
 
-**Signal layer.** Direct connectors and streams from commerce, point of sale, CRM and web; schema contracts; raw recovery data retained for 30 days; event-time and ingestion-time monitoring; quarantine for malformed records; and a spend alert at 15% above the approved baseline.
+Source identifiers remained intact and linked through deterministic/probabilistic evidence, confidence, lineage, consent, purpose, and a conflict owner. A golden record was reversible; it did not erase source truth.
 
-**Activation layer.** Authorized audiences, ranked seller queues, model and feature versions, exclusion rules, delivery receipts, holdouts, and outcome feedback.
+### Signals
 
-The [NIST Privacy Framework](https://www.nist.gov/privacy-framework/privacy-framework) informed the privacy-risk lifecycle around data mapping, purpose, consent, governance, and control. Japan’s [METI AI-governance guidance](https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20220128_report.html) provided a contemporaneous external benchmark for accountable implementation and monitoring. Neither framework makes a dataset compliant by itself.
+Commerce, POS, CRM, and web events entered through direct connectors/streams with schema contracts. Raw recovery data remained 30 days. Event time and ingestion time were separate. Malformed records entered quarantine. Spend alerts fired at 15% above approved baseline.
 
-## I used the workload to settle an architecture argument
+### Activation
 
-A legacy stored-procedure path and a distributed Spark identity-resolution job ran against the same test. The SQL job had not finished after four hours; the distributed job completed in 45 minutes—at least 195 minutes and 81.25% faster relative to the four-hour mark. Because the first job was censored at four hours, I do not claim an exact speed multiple.
+Every audience or seller queue carried authorization, model/feature version, exclusions, delivery receipt, comparison-group assignment, and outcome feedback.
 
-The resulting design used a recoverable raw layer, streaming event processing, a governed analytical store, and activation outputs. Technology was subordinate to the contract: freshness without replay, schema ownership, identity evidence, and downstream receipts would not be trustworthy real time.
+The [NIST Privacy Framework](https://www.nist.gov/privacy-framework/privacy-framework) informed purpose and governance; Japan’s [METI AI-governance guidance](https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20220128_report.html) supplied an implementation/monitoring benchmark. Neither framework declared the data compliant.
 
-## Propensity did not get every lead
+## The workload settled an architecture argument
 
-The seller model used session depth, frequency, search demand, and product interaction to rank likely, valuable sellers. I retained a random 20% control. That produced an estimate of incremental conversion and continued to expose the team to unconventional sellers unlike historical winners.
+A stored-procedure identity job and distributed Spark job ran the same test. SQL had not finished after four hours; Spark completed in 45 minutes—at least 195 minutes and 81.25% faster relative to the four-hour mark. Because the SQL run was censored, I do not invent an exact multiple.
 
-The measurement chain ran from eligible seller to score, sales contact, merchant activation, first transaction, and first-year gross merchandise sales. Model ranking could not claim value for a seller who would have joined anyway, and seller GMS was not Rakuten or customer revenue.
+The final design paired a recoverable raw layer, streaming event processing, governed analytical storage, and activation outputs. Technology served the contract: no “real time” without replay, identity evidence, schema ownership, permission, and delivery receipts.
 
-## What the customer recorded
+## Propensity ranking did not monopolize the market
 
-| System or growth measure | Baseline | Recorded result | Calculation and boundary |
-|---|---:|---:|---|
-| Peak signal latency | 26 h | <15 min | from 1,560 to <15 minutes; >99.04% reduction in worst-case source-to-activation freshness |
-| Infrastructure cost | index 100 | index 70 | 30% lower; workload, reserved capacity, and period not retained |
-| Customer-acquisition cost | index 100 | index 80 | 20% lower; must be read with seller mix and control outcomes |
-| Seller-lead conversion | 1.8% | 5.4% | +3.6 points, +200% relative, exactly 3× |
-| First-year seller sales/GMS | $12K | $28K | +$16K and +133.3%; source uses both “sales” and “GMS,” so it is not presented as platform revenue |
-| Pipeline maintenance | 20 h/week | 2 h/week | 18 hours and 90% lower |
-| Peak-event availability | not retained | no downtime recorded | bounded to the observed event, not annual availability |
+The seller model used session depth, frequency, search demand, and product interaction. I preserved a random 20% control, both to estimate incrementality and to keep discovering unconventional sellers unlike historical winners.
 
-The customer also finished the peak period $25 million above its Q4 sales target. That is an actual-versus-plan variance across pricing, demand, inventory, marketing, seller mix, and platform performance. I report it as customer business context, not incremental sales caused by the data platform or my work.
+Measurement continued past a score:
 
-## Attribution correction
+**eligible seller → score/control → sales contact → merchant activation → first transaction → first-year seller GMS**
 
-An earlier portfolio version placed this project under my Rakuten internship. The retained source repeatedly and explicitly describes it as an AWS customer engagement and distinguishes my AWS product/architecture role from the customer’s operating and investment authority. I have corrected the career assignment here and in the portfolio guide.
+The model could not claim a merchant who would have joined anyway, and seller GMS was not platform revenue.
 
-I owned the decision sequence, target architecture, customer workshops, game-day evidence, launch recommendation, model-control requirement, and shared commercial scorecard. Customer leaders owned production data, campaigns, sales action, launch approval, and realized results. That boundary makes the story stronger: my contribution was turning identity integrity from “data cleanup” into the prerequisite for reliable growth.
+## Customer result account
+
+| Outcome | Baseline → target → recorded result | Method |
+|---|---|---|
+| Peak freshness | 26 h → <15 min → <15 min | Source event to activation-ready signal; >99.04% lower from 1,560 minutes |
+| Infrastructure cost | index 100 → reduce → 70 | Comparable workload/capacity and period; 30% lower |
+| CAC | index 100 → improve with stable seller mix → 80 | Acquisition spend / activated sellers; 20% lower |
+| Seller-lead conversion | 1.8% → improve vs control → 5.4% | Activated sellers / eligible contacted leads; +3.6 points, 3× |
+| First-year seller sales/GMS | $12K → grow quality → $28K | Cohort GMS; +$16K, +133.3%, not platform revenue |
+| Maintenance | 20 h/week → low-touch → 2 h/week | Logged pipeline maintenance; -18 hours, -90% |
+| Peak continuity | baseline absent → no material outage → none recorded | Bounded event observation, not annual availability |
+
+The client finished peak $25 million above its Q4 sales target. Pricing, demand, inventory, marketing, seller mix, and platform all contributed; I present it as business context, not incremental sales caused by my work.
+
+I owned the sequencing decision, architecture, workshops, game-day interpretation, launch-delay recommendation, 20% control, and commercial scorecard. Client leaders owned production data, campaigns, sales action, launch authority, and realized outcomes.
+
+My contribution was to make identity integrity a growth dependency. Once the organization accepted that premise, speed became an advantage instead of a multiplier of duplicate customers and bad decisions.

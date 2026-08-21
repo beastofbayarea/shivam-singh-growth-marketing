@@ -1,60 +1,65 @@
 # Letting a retailer earn one camera insight before an enterprise sale
 
-I led product-led growth for a retail computer-vision platform during my AWS role. I saw that retailers had to commit to a long technical project before learning whether their existing camera footage could improve a store decision. I worked with store and loss-prevention teams, customer technology and privacy leaders, product and computer-vision engineers, solutions architects, security, sales, finance, support, and executive sponsors.
+The enterprise trial required twelve weeks of networking, identity, firewall, quota, security, and architecture work led by scarce solution architects. Customers had to commit to a project before learning whether their own footage could improve a store decision.
 
-## The “premium” trial was twelve weeks of dependency
+During my AWS role, I led the product-led growth redesign across store/loss-prevention teams, customer technology/privacy leaders, computer-vision engineering, solution architecture, security, sales, finance, support, and executives.
 
-Each prospect waited for networking, identity, firewall, quota, security and architecture decisions led by a solutions architect. The company spent its most specialized capacity on repeatable setup while the customer had still seen no traffic, dwell or product-interaction insight.
+## One camera. One hour. One viewed insight.
 
-I narrowed the evaluation contract to one camera, more than one hour of eligible footage, and one viewed store insight. The starter path did not promise multi-site production, every camera type, live loss-prevention action or enterprise integration. It promised a bounded proof the retailer could complete under its own control.
+I narrowed the first-value contract to:
 
-I rebuilt the entire acquisition motion around that first proof: edge-versus-cloud scope, camera and privacy prerequisites, automated pre-flight, product-qualified usage, specialist escalation, paid-consumption incentives, and funnel measurement. The result compressed an expert-dependent 12-week evaluation to roughly three weeks while reserving architects for multi-site expansion instead of spending scarce field capacity on routine setup.
+- connect one eligible camera;
+- process more than one hour of footage; and
+- view one traffic, dwell, or interaction insight.
 
-This was strategic subtraction. Experts remained available after first value for production security, data integration, model fitness, operating procedures and multi-site scale; they were removed from routine trial orchestration.
+The starter did not promise multi-site production, every camera, live loss-prevention action, or enterprise integration. It promised a bounded proof the retailer could complete under its own authority.
 
-## The privacy architecture was also the growth architecture
+This subtraction changed the acquisition economics. Routine uncertainty moved into product; architects moved downstream to production security, integrations, model fitness, operating procedures, and multi-site expansion.
 
-The first design request included live cloud video. I deferred it because continuous upload increased bandwidth, retention, privacy and security scope without improving the first proof.
+## The privacy architecture enabled self-service
 
-Video was processed on an edge device in the store. The trial sent lightweight JSON event metadata over MQTT to the cloud for heatmaps, dwell, traffic and alerts. A fixed infrastructure-as-code package made the deployment reproducible.
+The original request included live cloud video. I deferred it because continuous upload expanded bandwidth, retention, privacy, and security without improving the first proof.
 
-Edge processing reduced exposure; it did not make the product privacy-free. Event metadata can still describe people or sensitive behavior. The design needed purpose limitation, field minimization, retention, access control, location and time policy, model-performance analysis across conditions, signage or notice as applicable, and a deletion path.
+An in-store edge device processed video and sent lightweight JSON events via MQTT for heatmaps, dwell, traffic, and alerts. Infrastructure-as-code made the deployment reproducible.
 
-I used the [NIST Privacy Framework](https://www.nist.gov/privacy-framework/privacy-framework) to connect data processing to privacy risk and the [NIST AI Risk Management Framework](https://doi.org/10.6028/NIST.AI.100-1) to structure governance, use mapping, measurement and release decisions. They are voluntary external frameworks, not evidence of legal compliance.
+Edge processing reduced exposure but did not make event metadata non-sensitive. Purpose, minimization, retention, access, time/location policy, deletion, notice, and model performance across store conditions remained required.
 
-## I moved field knowledge into a pre-flight product
+The [NIST Privacy Framework](https://www.nist.gov/privacy-framework/privacy-framework) and [NIST AI RMF](https://doi.org/10.6028/NIST.AI.100-1) informed the governance and measurement perimeter; they were not legal certifications.
 
-Most failures were environment mismatches rather than vision-model errors. I productized a read-only audit of service quotas, identity permissions, security groups, network path and required endpoints. It returned the failed condition, why it mattered, and a suggested remediation command.
+## I turned architect memory into a product
 
-The diagnostic did not execute the change. Customer administrators retained authority and could review the exact action. A deployment template could not be released until it passed the same audit in a clean sandbox, preventing manually repaired “snowflake” trials that customers could not reproduce.
+Most trial failures came from environment mismatch, not model accuracy. I specified a read-only pre-flight covering service quotas, identity permissions, security groups, network path, and endpoints. It returned the failed condition, why it mattered, and a suggested remediation command.
 
-The retained record advertises a 15-minute deployment promise. The end-to-end evaluation still moved to about three weeks. Those are not contradictory if 15 minutes means starter-kit provisioning after prerequisites pass and three weeks includes customer approvals, footage, observation and decision. I keep the two clocks separate.
+The diagnostic never executed the change. Customer administrators retained authority. Deployment templates had to pass the same audit in a clean sandbox so a manually repaired snowflake could not be called self-service.
 
-## Qualification became a product event
+The record’s 15-minute promise and three-week evaluation are two clocks:
 
-A guide download or demo request showed interest. A product-qualified account had done the work:
+- **provisioning:** target 15 minutes after prerequisites pass;
+- **evaluation:** camera, approvals, footage, observation, and decision, reduced from 12 weeks to ~3.
 
-`deploy starter kit → connect camera → process >1 hour → view insight`
+## Qualification became evidence of use
 
-Only then did sales and solution architects enter to determine production value, sites, integrations, risks and commercial scale. That moved human expertise from explaining setup to expanding a demonstrated outcome.
+A download or demo showed interest. A product-qualified account had completed the proof:
 
-I also changed the sales objective from theoretical contract value at signature toward realized paid consumption. Reps benefited when the retailer started safely, used the product, added cameras or sites, and sustained value. The compensation boundary matters because self-service acquisition fails if sales is still paid to maximize an unused commitment.
+**deploy → connect → process >1 hour → view insight**
 
-## Funnel account
+Only then did sales and architects assess production value, sites, integrations, risks, and economics. Human expertise moved from setup explanation to expansion of an observed outcome.
 
-| Measure | Baseline | Product target | Recorded result | Measurement boundary |
-|---|---:|---:|---:|---|
-| Starter deployment | expert-scheduled | 15 min after prerequisites | source states 15-min promise | provisioning only; no observed percentile or pass rate retained |
-| Full evaluation cycle | 12 weeks | reduce time to a decision | ~3 weeks | 9 weeks and 75% shorter; start/end events must include equivalent customer approvals |
-| Customer-acquisition cost | index 100 | remove routine specialist work | index 60 | 40% lower; acquisition definition, loaded labor and cohort absent |
-| Paid conversion | baseline index 100 | improve after verified use | index 115 | source states +15%; relative versus points and denominator absent |
-| Product-qualified usage | no standard | deployed + processed + viewed | definition established | final count and PQA-to-paid rate absent |
-| Specialist capacity | routine mid-market trials | complex expansion | redeployed | hours and opportunity value not retained |
+I also shifted sales incentive from theoretical signed commitment toward realized paid consumption. Reps benefited when safe use began, cameras/sites expanded, and value persisted. Self-service cannot work economically if compensation still rewards unused capacity.
 
-The record supports an operating mechanism—setup knowledge absorbed into the product—and three directional funnel results. It does not support incremental revenue, number of customers, model accuracy, or a claim that every trial became production.
+## Funnel change
 
-## My growth ownership
+| Mechanism | Baseline → target → recorded result | Measurement |
+|---|---|---|
+| Starter provisioning | architect-scheduled → 15 min after prerequisites → promise retained, observed percentile absent | Template start to healthy first event |
+| Full evaluation | 12 weeks → decision quickly → ~3 weeks | Equivalent customer-approval-to-decision boundary; 9 weeks / 75% shorter |
+| CAC | index 100 → remove routine specialist labor → 60 | Loaded acquisition cost / acquired customer; 40% lower |
+| Paid conversion | index 100 → improve after verified use → 115 | Product-qualified-to-paid or exposed-to-paid denominator must be recovered; +15% source-stated |
+| Product qualification | no standard → deploy/process/view → definition established | Final PQA count and PQA-to-paid rate absent |
+| Architect capacity | routine trials → complex expansion → redeployed | Hours and opportunity value not retained |
 
-I owned the first-value contract, default self-service journey, edge-versus-cloud product trade-off, pre-flight requirements, product-qualified account definition, specialist handoff, consumption incentive, and funnel measurement. Engineering owned the model, edge runtime and automation. Customer owners controlled cameras and operating use. Privacy and security specialists retained approval. Sales owned expansion.
+The record supports the operating mechanism and directional funnel changes; it does not support incremental revenue, customer count, vision accuracy, or universal production conversion.
 
-The strategic outcome was a new economic boundary for an enterprise product: automate the repeatable uncertainty, let customers see a narrow result before a large commitment, and reserve experts for differences that genuinely require judgement.
+I owned the first-value contract, self-service journey, edge/cloud trade-off, pre-flight, product-qualified definition, specialist handoff, consumption incentive, and funnel account. Engineering owned model/edge/automation; customers controlled cameras and use; privacy/security retained approval; sales owned expansion.
+
+The strategic achievement was a new boundary for enterprise growth: automate repeatable uncertainty, let the customer produce one narrow proof before a large commitment, and reserve experts for the differences where expert judgment creates value.

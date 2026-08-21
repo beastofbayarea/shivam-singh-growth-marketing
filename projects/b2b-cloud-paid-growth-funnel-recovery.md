@@ -1,49 +1,60 @@
-# Recovering a B2B Cloud Acquisition Funnel Without Resetting It
+# Repairing a B2B cloud funnel without destroying the control
 
-I did this work during my [McKinsey experience from July 2014 to June 2016](https://github.com/beastofbayarea/shivam-singh-growth-marketing/blob/main/shivam-singh-growth-marketing.pdf).
+I led paid-growth recovery for a B2B cloud-cost product during my McKinsey role. I saw that the acquisition journey was losing relevance at several different points and that a full relaunch would hide which change worked. I worked with cloud buyers, founders and technology leaders, media and creative teams, website owners, sales, marketing operations, finance, and client executives.
 
-The paid funnel was deteriorating in ways that could easily trigger an indiscriminate relaunch. Click-through rate had fallen 20%, customer-acquisition cost had increased 15%, and a 2,500-trial target was at risk. Twenty percent of spend sat on keywords below 1% CTR, creative engagement had decayed 30%, and targeting had drifted away from actual decision makers.
+## The funnel was not one broken thing
 
-I chose a controlled repair. The goal was to isolate the failing mechanisms while protecting the campaigns and demand signals that still worked.
+Click-through rate had declined 20% and cost per acquisition had risen 15%, putting a target of 2,500 trials at risk. The live view then showed three separate mechanisms:
 
-## Ninety minutes to a usable diagnosis
+- 20% of spend sat on keywords with CTR below 1%;
+- creative engagement had decayed 30% after long rotation; and
+- paid-social targeting had drifted away from the CIOs, CTOs, founders, and other people involved in the purchase.
 
-I joined advertising, website, and CRM data into one live view of spend, search intent, creative response, page behavior, qualification, and downstream customer value. That exposed three distinct problems: low-intent keyword waste, creative fatigue, and audience composition.
+Landing pages added a fourth loss: the source later records dead-page waste at 15% of the relevant traffic or spend. A blanket bid cut might improve average CPA by suppressing expensive high-intent terms. New creative would not fix traffic sent to a dead destination. More leads would not help if they were not decision makers.
 
-The distinction mattered because each problem needed a different intervention. A blanket bid reduction might improve headline CPA while suppressing valuable intent. A new creative set would not fix dead-page traffic. Broader targeting could generate more leads while lowering buyer quality.
+The diagnosis took 90 minutes because the advertising, site, and CRM feeds and metric definitions already existed. I used the time to segment spend and outcomes by keyword, match type, audience, buyer role, creative age, page, qualification, and retained customer—not to assemble a crisis spreadsheet.
 
-## I protected the baseline while treating the problem
+## I treated only what evidence said was failing
 
-I left the strongest 60% of the program unchanged and used 30% of budget for the treatment. The remaining budget protected operational flexibility. I paused proven waste, moved $50,000 toward exact-match high-intent terms, produced ten new ads within 48 hours, and narrowed roles toward observed decision makers.
+I kept the strongest 60% of the program unchanged as the operating baseline. Thirty percent of budget entered a treatment cell; the remaining 10% preserved flexibility for reallocation and operational variance.
 
-I established a $75 CPA kill switch and a three-day decision read before scale. An unchanged campaign group served as the counterfactual. The World Bank's impact-evaluation methodology influenced this design: without a credible comparison, broad market movement or seasonal demand could be mistaken for treatment lift.
+Within the treatment I:
 
-FTC advertising guidance shaped a separate control. Faster production still required truthful, supportable claims; urgency was not permission to overstate the offer.
+- paused the 40% of keywords already shown to be weak rather than pausing 40% of spend indiscriminately;
+- moved $50,000 into exact-match, high-intent search terms;
+- launched ten new evidence-backed ads within 48 hours;
+- narrowed paid-social roles toward observed buying participants while retaining warm remarketing; and
+- led with measurable infrastructure economics rather than generic cloud language.
 
-## The immediate repair and the next-quarter system were different
+The control campaigns remained unchanged. A three-day read informed the next budget move, but the outcome window stayed open for 14 days. CPA above $75 triggered reversal within 24 hours. This protected the continuing funnel and prevented a good first day from becoming premature scale.
 
-I used high-intent acquisition as a three-week tourniquet, then rebuilt awareness separately. This avoided the common mistake of declaring victory after harvesting existing demand.
+[Impact Evaluation in Practice](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice) supplied the external logic: define a credible counterfactual and assignment before treatment so market movement is not mislabelled as campaign lift. The retained record does not preserve randomization, sample size, or statistical uncertainty, so I call the design a controlled holdout—not a randomized experiment.
 
-For the awareness work, I preserved a minimum share of genuinely new visitors and followed six-month retention. That allowed me to test whether lower acquisition cost represented better customers or simply cheaper clicks.
+## Recovery and demand creation used different economics
 
-## What changed in 14 days
+For three weeks, high-intent acquisition acted as a tourniquet for the current-quarter trial risk. I did not conclude that awareness had become unnecessary just because bottom-funnel terms produced faster conversion.
 
-- CPA fell from $65 to $48.
-- CTR increased 25%.
-- The campaign produced 200 additional qualified leads.
-- Dead-page waste fell below 2%, avoiding approximately $75,000 in spend.
-- Six-month retention was 20% higher.
-- The following quarter's baseline efficiency remained about 20% stronger.
+The next phase restored broader audiences with refreshed content. At least 40% of visitors had to be genuinely new to the measured audience pool. I followed six-month retention and next-quarter efficiency so a lower initial CPA could not hide low-quality users or simple harvesting of existing demand.
 
-## The growth lesson
+Claims still needed evidence under a rapid production cycle. The [FTC’s advertising guidance](https://www.ftc.gov/business-guidance/advertising-marketing) was the external baseline for truthful, non-misleading and substantiated messages; it was not a substitute for product-specific proof.
 
-I do not treat a deteriorating funnel as one undifferentiated failure. I preserve the working baseline, isolate the mechanism, predefine the stop condition, and follow the customer beyond conversion. That approach produces a faster answer while protecting both current-quarter economics and future demand creation.
+## Fourteen-day account
 
-## External foundations
+| Measure | Baseline | Stop or target | Recorded result | What the result means |
+|---|---:|---:|---:|---|
+| CPA | $65 | reverse if >$75 | $48 | $17 and 26.2% lower; the source does not retain whether acquisition meant trial, qualified lead, or customer |
+| CTR | index 100 after prior 20% decline | improve versus holdout | index 125 | 25% relative increase from the intervention baseline; not necessarily full recovery to the earlier historical level |
+| Qualified leads | control expectation | protect 2,500-trial target | +200 | source calls these additional based on holdout comparison; qualified leads are not trials or customers |
+| Dead-page waste | 15% | <2% | <2% | more than 13 percentage points lower; associated with about $75K modeled spend avoidance |
+| Six-month retention | control cohort | improve customer quality | 20% higher | relative/point basis, cohort sizes, and confidence interval absent |
+| Following-quarter efficiency | prior quarter index 100 | sustain repair | index about 120 | source-reported 20% stronger baseline; metric composition not retained |
 
-These sources supplied the primary experimentation and advertising methodology. My resume establishes employment chronology only.
+The $75,000 is avoided spend estimated from counterfactual traffic and the corrected page path, not revenue or cash returned. The 200 leads are not added to the 2,500-trial target. A 25% CTR increase after a 20% decline only returns to the original level if both percentages use the same base and mix; the source does not prove that, so I do not call CTR “fully restored.”
 
-| Source | How I applied it |
-|---|---|
-| [World Bank — Impact Evaluation in Practice](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice) | I used its counterfactual and causal-measurement principles to preserve a credible control and distinguish lift from market movement. |
-| [U.S. Federal Trade Commission — Advertising and Marketing Basics](https://www.ftc.gov/business-guidance/advertising-marketing) | I used its truthful-advertising and claim-substantiation guidance during rapid creative production. |
+## The durable operating system
+
+I turned the incident into daily anomaly detection on CPA, CTR, lead volume, buyer-role mix, page loss, and creative age; a 15-minute cause-isolation review; controlled treatment; and scale-or-rollback rules. Quarterly audits prevented 90-day creative stagnation and keyword expansion without owner review.
+
+I owned the diagnostic frame, budget isolation, treatment design, creative and audience decision, kill switch, metric definitions, and executive trade-off between immediate demand capture and future audience creation. Channel specialists executed media. Sales owned qualification. Finance owned customer economics. Product and legal owners substantiated claims.
+
+The strategic result was not a clever ad. It was a recovery method that preserved a counterfactual, repaired different failure mechanisms separately, and followed acquired users far enough to test whether apparent efficiency created durable demand.

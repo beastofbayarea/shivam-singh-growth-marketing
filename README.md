@@ -1,57 +1,35 @@
-# Shivam Singh - Growth Marketing
+# Shivam Singh — Growth Marketing
 
-## Profile
+Growth is not a channel plan. It is a sequence of customer decisions whose economics still hold when attribution, budget, policy, and product friction are made visible.
 
-Hi, I’m Shivam. I think of growth as a connected set of customer decisions, not a collection of channels. Someone has to discover the product, understand why it matters, reach value quickly, build a habit, and decide it is worth keeping or expanding.
+The projects here follow that sequence—from finding intent to earning first value, retaining trust, and scaling what remains incremental.
 
-You can reach me at [shiv-growth-mkt@umich.edu](mailto:shiv-growth-mkt@umich.edu) or connect with me on [LinkedIn](https://www.linkedin.com/in/beastofbayarea).
+[Resume](./shivam-singh-growth-marketing.pdf) · [LinkedIn](https://www.linkedin.com/in/beastofbayarea) · [shiv-growth-mkt@umich.edu](mailto:shiv-growth-mkt@umich.edu)
 
-## How I approach growth
+## Find the constraint before buying more volume
 
-I start by finding the constraint. Sometimes it is weak intent, sometimes activation friction, sometimes poor retention, and sometimes measurement that makes the wrong channel look successful. I would rather solve the most consequential break in the journey than optimize every dashboard at once.
+The [B2B cloud funnel recovery](./projects/b2b-cloud-paid-growth-funnel-recovery.md) started with CTR down 20%, CPA up 15%, and a 2,500-trial target at risk. I kept 60% of the program unchanged, isolated 30% for treatment, and held 10% as decision reserve. That preserved a usable counterfactual while the team repaired low-intent keywords, stale creative, buyer-role drift, and dead pages as separate mechanisms. CPA moved from $65 to $48, paid traffic reaching dead paths fell from 15% to below 2%, the treatment added 200 qualified leads, and six-month retention was 20% higher. The durable result was a controlled repair loop, not just a cheaper fortnight.
 
-I care about incrementality because growth should survive contact with finance. That means looking beyond attributed conversions to marginal returns, customer lifetime value, payback, and what actually changes when spend or product behavior changes.
+## Make identity truthful before acting on intent
 
-## Growth problems I explore
+For an [AWS commerce customer's real-time growth data platform](./projects/commerce-growth-data-platform-real-time-intent.md), stale signals and duplicate identities were making both marketing and seller prioritization look more precise than they were. I reordered the roadmap: identity and event contracts first, then live intent, propensity, and activation. Signal freshness moved from as much as 26 hours to under 15 minutes, infrastructure cost fell 30%, seller-lead conversion rose from 1.8% to 5.4%, first-year seller GMS rose from $12,000 to $28,000, and maintenance fell from 20 to two hours per week. Those are customer outcomes tied to the advisory program—not a claim that I operated the customer's business.
 
-I’ve kept the experience order reverse chronological, but each project stands on its own. Every walkthrough is rebuilt around its own customer journey, economic constraint, evidence and decision. The files preserve holdout limits, attribution scope, estimated versus realized value, chronology, source conflicts and any metric that cannot be reconciled.
+## Turn first value into the growth event
 
-### Amazon Web Services (AWS)
+[Enterprise onboarding with a zero-wait first run](./projects/enterprise-onboarding-zero-wait-first-run.md) separated safe visual readiness from authorized editing. That product decision let users orient immediately while license and synchronization completed in parallel, with a useful degraded state when the network was slow. A controlled Brazil pilot and six-week readiness program moved the handshake from P95 1,200 milliseconds to 380 milliseconds, activation from 62% to 81%, and weekly authentication/sync tickets from 450 to 65. Day-30 retention rose 12%, while the associated $14 million annualized retention estimate remained a model rather than booked revenue.
 
-**Senior Growth Strategy & Product-Led Adoption Lead** | 2024 - Present
+In [retail computer-vision self-service PLG](./projects/retail-computer-vision-self-serve-plg.md), the first value event became even more concrete: deploy one camera, process one hour of footage, and view one insight. Reproducible infrastructure, edge privacy, read-only diagnostics, and a product-qualified-account event turned architect memory into a product. Full evaluation fell from twelve weeks to roughly three, CAC fell 40%, paid conversion rose 15%, and specialist capacity moved toward complex expansion work.
 
-#### [Retail computer vision: self-serve PLG](./projects/retail-computer-vision-self-serve-plg.md)
+## Retention depends on credible response, not lifecycle automation
 
-I narrowed a twelve-week, solutions-architect-led trial to one camera, one hour of footage and one viewed insight. Edge processing, reproducible infrastructure, read-only diagnostics, a product-qualified account event and consumption-aligned sales incentives let retailers test value before committing to enterprise scale; the file keeps the 15-minute provisioning promise separate from the three-week evaluation result.
+[Institutional growth recovery](./projects/institutional-growth-retention-referral-recovery.md) began when a stated $5 billion emerging-markets strategy entered a different market regime. I ran two loops together: the investment response and the relationship response. Behavioral warning, a transparent risk portal, allocator questions, and evidence-led outreach helped retain or recover $225 million of a $500 million at-risk pool, generated $200 million in referred AUM, and moved NPS from 78 to 96. The portfolio preserves the boundary between gross assets, fee revenue, trading performance, and causal marketing impact.
 
-#### [Prime Student: global growth under a budget cut](./projects/prime-student-global-growth-budget-cut.md)
+## Scale comes from portability under pressure
 
-I built a portable audience, creative and channel system for a Prime Student campaign under a 50% budget cut, then used it to pivot within 48 hours when youth-ad rules throttled most direct-response assets. The source is a composite of Prime Student and Rakuten Sports records under an AWS employment period, names only eight of ten markets, and contains three financial inconsistencies; the walkthrough exposes each rather than presenting a false unified ROI.
+The [Prime Student global campaign under a 50% budget cut](./projects/prime-student-global-growth-budget-cut.md) was engineered so audience logic, creative claims, and channel activation could move independently. Overlap fell from 40% to 8%, local adaptation fell from 72 hours to six, and the operating system pivoted within 48 hours when youth-ad rules throttled 65% of direct-response assets. Recorded ROAS moved from 2.5× to 3.6× and the US program reached $48 million against a $50 million target. The project also exposes unresolved market counts and financial perimeters rather than manufacturing one global incrementality claim.
 
-#### [Commerce growth data platform: real-time intent and predictive activation](./projects/commerce-growth-data-platform-real-time-intent.md)
+## How I lead growth
 
-I led product and architecture strategy for an AWS commerce customer whose stale signals and duplicate identities were distorting marketing and seller prioritization. The source explicitly assigns this work to AWS—not Rakuten—and distinguishes my advisory ownership from the customer’s launch, operations and commercial outcomes.
+I work across acquisition, product-led adoption, lifecycle, data, sales, finance, privacy, and market teams. I choose the constraint, define the customer state change, protect a counterfactual, set scale and rollback rules, and keep attributed activity separate from incremental value.
 
-### Microsoft Corporation
-
-**Senior Growth & Lifecycle Marketing Lead - Activation, Retention & PLG** | 2020 - 2022
-
-#### [Enterprise onboarding: zero-wait first run](./projects/enterprise-onboarding-zero-wait-first-run.md)
-
-I turned first-run performance into a growth lever by separating safe cached orientation from authorized editing, testing the parallel handshake under variable Brazilian networks, and giving degraded states a useful fallback. The account connects P95 latency to activation and support outcomes while keeping a $14M annualized retention model distinct from booked revenue.
-
-### The D. E. Shaw Group
-
-**Demand Generation Lead - FinTech Growth Analytics** | July 2016 - December 2019
-
-#### [Institutional growth: retention and referral recovery](./projects/institutional-growth-retention-referral-recovery.md)
-
-I led the client-retention and growth response when a stated $5B emerging-markets strategy entered a different market regime. Behavioral warning, a transparent risk portal, client-question feedback and evidence-led outreach joined the investment and relationship response without claiming growth ownership of the trading model or treating retained and referred assets as revenue.
-
-### McKinsey & Company
-
-**Business Analyst, Market Entry** | 2014 - 2016
-
-#### [B2B cloud paid growth: funnel recovery](./projects/b2b-cloud-paid-growth-funnel-recovery.md)
-
-I recovered a deteriorating B2B paid funnel by isolating keyword waste, creative decay, audience drift and landing-page loss instead of relaunching everything. An unchanged baseline, 30% treatment budget, kill switch and six-month cohort view separated immediate demand capture from durable customer quality.
+The operating question behind every project is the same: **what changed in customer behavior, compared with what would otherwise have happened, and did the resulting cohort create durable value?**

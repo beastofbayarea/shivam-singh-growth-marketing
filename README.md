@@ -44,7 +44,6 @@ Stories are grouped by their primary resume experience in reverse chronological 
 **Senior Growth & Lifecycle Marketing Lead - Activation, Retention & PLG** | 2020 - 2022
 
 - [Enterprise onboarding: zero-wait first run](./projects/enterprise-onboarding-zero-wait-first-run.md) - activation redesign and time-to-value reduction
-- [Enterprise GenAI: activation and retention](./projects/enterprise-genai-activation-retention.md) - lifecycle growth for repeat AI usage
 
 ### The D. E. Shaw Group
 

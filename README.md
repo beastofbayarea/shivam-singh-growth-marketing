@@ -24,18 +24,22 @@ Use the PDF for review and sharing. Use the DOCX for editable, ATS-friendly appl
 
 ## Project interview stories
 
-Each story adapts a portfolio project to this role narrative, with resume-ready impact, interview framing, decisions, metrics, and a link to the source page. The primary resume experience identifies the work-history anchor whose stated scope and evidence best support the story.
+Stories are grouped by their primary resume experience in reverse chronological order. Each project includes resume-ready impact, interview framing, decisions, metrics, and a link to the source page.
+
+### Amazon Web Services (AWS)
+
+**Senior Growth Strategy and Product-Led Adoption Lead** | July 2024 - Present
+
+- [Retail computer vision: self-serve PLG](./projects/retail-computer-vision-self-serve-plg.md) - product-led acquisition, activation, and expansion
+- [Prime Student: global growth under a budget cut](./projects/prime-student-global-growth-budget-cut.md) - international growth prioritization and efficient allocation
+
+### Microsoft Corporation
+
+**Senior Growth and Lifecycle Marketing Lead - Activation, Retention and PLG** | January 2020 - August 2022
 
 - [Enterprise onboarding: zero-wait first run](./projects/enterprise-onboarding-zero-wait-first-run.md) - activation redesign and time-to-value reduction
-  - **Primary resume experience:** Microsoft Corporation - Senior Growth and Lifecycle Marketing Lead - Activation, Retention and PLG (January 2020 - August 2022)
-- [Retail computer vision: self-serve PLG](./projects/retail-computer-vision-self-serve-plg.md) - product-led acquisition, activation, and expansion
-  - **Primary resume experience:** Amazon Web Services (AWS) - Senior Growth Strategy and Product-Led Adoption Lead (July 2024 - Present)
 - [Enterprise GenAI: activation and retention](./projects/enterprise-genai-activation-retention.md) - lifecycle growth for repeat AI usage
-  - **Primary resume experience:** Microsoft Corporation - Senior Growth and Lifecycle Marketing Lead - Activation, Retention and PLG (January 2020 - August 2022)
 - [B2B cloud paid growth: funnel recovery](./projects/b2b-cloud-paid-growth-funnel-recovery.md) - conversion diagnosis, channel efficiency, and pipeline recovery
-  - **Primary resume experience:** Microsoft Corporation - Senior Growth and Lifecycle Marketing Lead - Activation, Retention and PLG (January 2020 - August 2022)
-- [Prime Student: global growth under a budget cut](./projects/prime-student-global-growth-budget-cut.md) - international growth prioritization and efficient allocation
-  - **Primary resume experience:** Amazon Web Services (AWS) - Senior Growth Strategy and Product-Led Adoption Lead (July 2024 - Present)
 
 ## Profile
 

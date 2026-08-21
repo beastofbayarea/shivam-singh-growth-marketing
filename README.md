@@ -2,6 +2,11 @@
 
 Role-targeted resume for product-led growth, demand generation, lifecycle marketing, experimentation, and international expansion.
 
+## Profile
+
+- Email: [shiv-growth-mkt@umich.edu](mailto:shiv-growth-mkt@umich.edu)
+- [LinkedIn](https://www.linkedin.com/in/beastofbayarea)
+
 ## Resume formats
 
 - [View the PDF](./shivam-singh-growth-marketing.pdf)
@@ -24,7 +29,7 @@ Use the PDF as the authoritative resume for review and sharing. Use the DOCX as 
 
 ## Project interview stories
 
-Stories are grouped by their primary resume experience in reverse chronological order. Each project includes resume-ready impact, interview framing, decisions, metrics, and a link to the source page.
+Stories are grouped by their primary resume experience in reverse chronological order. Each file is an externally grounded interview case reconstruction: independent methodology, regulatory, and market sources support the content, while the resume is used only for work dates. The files do not claim independently verified engagement results.
 
 ### Amazon Web Services (AWS)
 
@@ -33,12 +38,23 @@ Stories are grouped by their primary resume experience in reverse chronological 
 - [Retail computer vision: self-serve PLG](./projects/retail-computer-vision-self-serve-plg.md) - product-led acquisition, activation, and expansion
 - [Prime Student: global growth under a budget cut](./projects/prime-student-global-growth-budget-cut.md) - international growth prioritization and efficient allocation
 
+### Rakuten Group, Inc.
+
+**Growth & International Expansion - MBA Intern** | 2023
+
+- [Commerce growth data platform: real-time intent and predictive activation](./projects/commerce-growth-data-platform-real-time-intent.md) - trusted customer signals, cross-channel activation, CAC efficiency, and merchant conversion
+
 ### Microsoft Corporation
 
 **Senior Growth & Lifecycle Marketing Lead - Activation, Retention & PLG** | 2020 - 2022
 
 - [Enterprise onboarding: zero-wait first run](./projects/enterprise-onboarding-zero-wait-first-run.md) - activation redesign and time-to-value reduction
-- [Enterprise GenAI: activation and retention](./projects/enterprise-genai-activation-retention.md) - lifecycle growth for repeat AI usage
+
+### The D. E. Shaw Group
+
+**Demand Generation Lead - FinTech Growth Analytics** | 2016 - 2020
+
+- [Institutional growth: retention and referral recovery](./projects/institutional-growth-retention-referral-recovery.md) - behavioral churn detection, lifecycle transparency, retention, referrals, and AUM growth
 
 ### McKinsey & Company
 
@@ -46,7 +62,3 @@ Stories are grouped by their primary resume experience in reverse chronological 
 
 - [B2B cloud paid growth: funnel recovery](./projects/b2b-cloud-paid-growth-funnel-recovery.md) - performance-funnel audit, CRO, channel economics, and controlled acquisition recovery
 
-## Profile
-
-- Email: [shiv-growth-mkt@umich.edu](mailto:shiv-growth-mkt@umich.edu)
-- [LinkedIn](https://www.linkedin.com/in/beastofbayarea)

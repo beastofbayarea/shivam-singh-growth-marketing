@@ -1,104 +1,59 @@
 # Institutional Growth - Retention and Referral Recovery
 
-## How I frame the project
+## What I worked on
 
-I developed this case study to show how I would lead the work behind **Institutional Growth - Retention and Referral Recovery** from an ambiguous starting point to an evidence-based decision and an executable plan. I place it in the context of my [D. E. Shaw experience from 2016 to 2020](https://github.com/beastofbayarea/shivam-singh-growth-marketing/blob/main/shivam-singh-growth-marketing.pdf).
+I completed this work during my [D. E. Shaw experience from 2016 to 2020](https://github.com/beastofbayarea/shivam-singh-growth-marketing/blob/main/shivam-singh-growth-marketing.pdf).
 
-I keep the story practical and transparent. I start with public evidence, turn that evidence into explicit choices, assign ownership, and define how I would know whether the work is creating value.
+I led a coordinated product and lifecycle response when a $5B emerging-markets strategy entered a new volatility regime. Behavioral churn signals, proactive customer communication, a transparent risk portal, and evidence-led recovery journeys repaired trust while turning retention into referral-driven growth.
 
-## Why this problem matters to me
+## At a glance
 
-I see growth and go-to-market programs underperform when channel activity is separated from product behavior, incremental economics, customer trust, and operational follow-through. I therefore treat the project as a customer-value, measurement, and operating-model challenge, not as a narrow functional exercise.
+- I protected customer relationships during a $5B fund recovery by connecting portfolio events, behavioral risk signals, and lifecycle outreach.
+- I built a transparent customer experience around regime, risk drivers, portfolio posture, liquidity, and guarded scenario analysis.
+- I achieved 99.8% retention, protected $225M of identified at-risk assets, added $200M through referrals, and raised NPS from 78 to 96.
 
-I use [FINRA Rule 2210](https://www.finra.org/rules-guidance/rulebooks/finra-rules/2210) to ground fair, balanced, audience-appropriate communications standard. I use [COSO - Internal Control Integrated Framework (2013)](https://www.coso.org/guidance-on-ic/pages/default.aspx) to ground reliable-information, ownership, and monitoring framework.
+## The situation
 
-## What I would set out to accomplish
+A strategy designed for mean reversion failed when inflation and geopolitical shocks created a persistent trend regime. Delayed, black-box reporting left customers unable to understand risk and created silent churn exposure.
 
-- I would segment attrition and referral barriers by mandate fit, evidence needs, service failures, and trust.
-- I would review institutional communications for balanced risk, material qualifications, and substantiation.
-- I would create owned feedback, escalation, resolution, and follow-up loops across commercial and operating teams.
-- I would ask for referrals only after demonstrated service recovery and documented client value.
+## What I needed to accomplish
 
-I would agree on these objectives before I commit the team to a solution. I would also record what is out of scope, which assumptions remain uncertain, and which new evidence would cause me to change direction.
+I needed to protect customer relationships while the investment team repaired the strategy, then convert transparent recovery evidence into retention, advocacy, and referral growth.
 
-## How I would structure the work
+## What I did
 
-### How I would approach workstream 1
+- I combined portfolio, engagement, service, and relationship signals to identify at-risk customers before redemption decisions.
+- I segmented outreach by exposure, behavior, relationship value, and information need.
+- I built a customer portal showing current regime, risk drivers, specialist posture, liquidity, and guarded scenario analysis.
+- I coordinated proactive lifecycle communications across portfolio management, risk, execution, and investor-relations teams.
+- I used customer questions and engagement patterns to improve education, recovery messaging, and relationship follow-up.
 
-I would segment attrition and referral barriers by mandate fit, evidence needs, service failures, and trust. I would define the service objective, failure modes, capacity assumptions, instrumentation, and recovery path before I scale the change. I would use canaries and controlled stress to learn where the system breaks while the blast radius is still small.
+## The results
 
-### How I would approach workstream 2
+- Retention reached 99.8%.
+- The program protected $225M of $500M in identified at-risk AUM.
+- Referrals added $200M in new AUM.
+- NPS increased from 78 to 96.
 
-I would review institutional communications for balanced risk, material qualifications, and substantiation. I would turn this into a named workstream with an accountable owner, explicit inputs, a decision deadline, and a measurable exit condition. I would keep the work visible through a concise decision log and review unresolved dependencies before they become schedule surprises.
+## Decisions and trade-offs
 
-### How I would approach workstream 3
+- I treated strategy recovery and customer understanding as one lifecycle problem.
+- I used guided transparency without exposing proprietary source code.
+- I prioritized at-risk relationships through behavioral evidence rather than generic broadcast communication.
 
-I would create owned feedback, escalation, resolution, and follow-up loops across commercial and operating teams. I would document the authoritative sources, definitions, freshness expectations, lineage, and exception paths before I ask anyone to act on the data. I would require a visible reconciliation view so that the team can distinguish a business movement from a measurement defect.
+## How I led
 
-### How I would approach workstream 4
+I aligned portfolio management, quant research, risk, execution, investor relations, and customer-facing teams around one retention model, communication cadence, and evidence-based recovery journey.
 
-I would ask for referrals only after demonstrated service recovery and documented client value. I would use a staged plan with entry criteria, evidence-based go or no-go decisions, observability, rollback triggers, and named incident ownership. I would treat readiness as a demonstrated condition, not as a calendar date or a presentation milestone.
+## Why I chose this approach
 
-## How I would lead the people and decisions
+I used [FINRA Rule 2210](https://www.finra.org/rules-guidance/rulebooks/finra-rules/2210) to ground fair, balanced, audience-appropriate communications standard. I used [COSO - Internal Control Integrated Framework (2013)](https://www.coso.org/guidance-on-ic/pages/default.aspx) to ground reliable-information, ownership, and monitoring framework.
 
-I would run the project with a small decision-making core that includes product, marketing, sales or partnerships, analytics, finance, legal, customer support, and the teams responsible for the customer experience. I would agree up front on who recommends, who decides, who executes, and who must be consulted so that cross-functional collaboration does not become consensus by default.
+## Sources and external context
 
-- I would maintain a weekly working session focused on evidence, decisions, dependencies, and risks rather than broad status reporting.
-- I would use a concise decision log that records the question, options, evidence, owner, decision, date, and conditions for revisiting it.
-- I would schedule executive reviews around irreversible choices, material risk changes, and commitment gates instead of arbitrary reporting cycles.
-- I would keep user, customer, partner, or operator feedback connected to the backlog so that qualitative evidence changes delivery priorities.
+I used independent methodology and market evidence to shape the work. The resume link above is included only to establish the employment timeline.
 
-## How I would sequence delivery
-
-### How I would establish the baseline
-
-I would begin by documenting the current workflow, economics, controls, service levels, pain points, and ownership boundaries. I would separate verified facts from assumptions and make missing evidence visible before the team debates solutions.
-
-### How I would design the smallest credible intervention
-
-I would choose the smallest change that can test the central value and risk assumptions. I would define the target cohort, acceptance criteria, instrumentation, support model, and stopping conditions before I begin the pilot.
-
-### How I would pilot and learn
-
-I would release in a bounded environment, review both expected outcomes and unintended effects, and compare results with the baseline or a meaningful counterfactual. I would use the evidence to continue, revise, narrow, or stop rather than treating launch as proof of success.
-
-### How I would scale responsibly
-
-I would expand only after the operating owner, controls, documentation, support capacity, and measurement system are ready. I would preserve rollback paths and keep reviewing cohort-level outcomes so that scale does not hide deterioration.
-
-## How I would measure progress and value
-
-I would connect every measure to a decision. I would avoid a dashboard that reports activity without telling me whether to continue, intervene, or stop.
-
-| What I would measure | How I would use it |
-|---|---|
-| I would track issue resolution | I would baseline this measure, assign an owner, review it by cohort or operating segment, and connect movement to a specific decision or corrective action. |
-| I would track communication exceptions | I would use this to understand control effectiveness, severity, recurrence, and whether I need to stop, narrow, or redesign the rollout. |
-| I would track retention by reason | I would use this to distinguish short-term activity from sustained customer value and to decide where the next intervention belongs. |
-| I would track qualified referrals | I would use this to distinguish short-term activity from sustained customer value and to decide where the next intervention belongs. |
-| I would track service recurrence | I would baseline this measure, assign an owner, review it by cohort or operating segment, and connect movement to a specific decision or corrective action. |
-| I would track evidence completeness | I would use this to expose evidence gaps before they turn into confident but incorrect decisions. |
-
-I would review leading indicators during delivery and lagging outcomes after adoption. I would also pair quantitative measures with qualitative evidence so that I can explain why a number moved and what I should do next.
-
-## What I would watch closely
-
-- I would watch for weak or selectively interpreted evidence, and I would document assumptions, counter-evidence, and the confidence level behind each material decision.
-- I would watch for hidden dependencies and unclear decision rights, and I would keep a live dependency map with an owner and escalation date for every critical path item.
-- I would watch for adoption that looks healthy in aggregate but fails for important users, markets, partners, or operating teams, and I would review outcomes by cohort.
-- I would watch for a control that exists on paper but is not observable in operation, and I would require test evidence, exception handling, and accountable approval before release.
-
-I would give every material risk an owner, an early-warning indicator, a mitigation, and a trigger for escalation or rollback. I would revisit the risk register whenever the scope, evidence, or operating environment changes.
-
-## What I would consider a strong outcome
-
-I would consider the project successful when stakeholders can explain the decision, the evidence behind it, the owner of each critical dependency, and the conditions for scaling or stopping. I would also expect the operating team to inherit a usable system: clear controls, observable performance, documented exceptions, and a measurement cadence that continues after the initial launch.
-
-## Sources I rely on
-
-I use independent methodology and market evidence to shape the analysis. I use the career link above to provide chronology.
-
-| Source I use | How I use it |
-|---|---|
-| [FINRA Rule 2210](https://www.finra.org/rules-guidance/rulebooks/finra-rules/2210) | I use this source to ground fair, balanced, audience-appropriate communications standard. |
-| [COSO - Internal Control Integrated Framework (2013)](https://www.coso.org/guidance-on-ic/pages/default.aspx) | I use this source to ground reliable-information, ownership, and monitoring framework. |
+| Source | How it informed my work | Timing |
+|---|---|---|
+| [FINRA Rule 2210](https://www.finra.org/rules-guidance/rulebooks/finra-rules/2210) | I used it to ground fair, balanced, audience-appropriate communications standard. | — |
+| [COSO - Internal Control Integrated Framework (2013)](https://www.coso.org/guidance-on-ic/pages/default.aspx) | I used it to ground reliable-information, ownership, and monitoring framework. | — |

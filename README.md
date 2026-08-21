@@ -7,7 +7,7 @@ Role-targeted resume for product-led growth, demand generation, lifecycle market
 - [View the PDF](./shivam-singh-growth-marketing.pdf)
 - [Download the ATS Autofill DOCX](./shivam-singh-growth-marketing-ats-autofill.docx)
 
-Use the PDF for review and sharing. Use the DOCX for editable, ATS-friendly application workflows.
+Use the PDF as the authoritative resume for review and sharing. Use the DOCX as an editable, ATS-friendly companion.
 
 ## Focus areas
 
@@ -28,18 +28,23 @@ Stories are grouped by their primary resume experience in reverse chronological 
 
 ### Amazon Web Services (AWS)
 
-**Senior Growth Strategy and Product-Led Adoption Lead** | July 2024 - Present
+**Senior Growth Strategy & Product-Led Adoption Lead** | 2024 - Present
 
 - [Retail computer vision: self-serve PLG](./projects/retail-computer-vision-self-serve-plg.md) - product-led acquisition, activation, and expansion
 - [Prime Student: global growth under a budget cut](./projects/prime-student-global-growth-budget-cut.md) - international growth prioritization and efficient allocation
 
 ### Microsoft Corporation
 
-**Senior Growth and Lifecycle Marketing Lead - Activation, Retention and PLG** | January 2020 - August 2022
+**Senior Growth & Lifecycle Marketing Lead - Activation, Retention & PLG** | 2020 - 2022
 
 - [Enterprise onboarding: zero-wait first run](./projects/enterprise-onboarding-zero-wait-first-run.md) - activation redesign and time-to-value reduction
 - [Enterprise GenAI: activation and retention](./projects/enterprise-genai-activation-retention.md) - lifecycle growth for repeat AI usage
-- [B2B cloud paid growth: funnel recovery](./projects/b2b-cloud-paid-growth-funnel-recovery.md) - conversion diagnosis, channel efficiency, and pipeline recovery
+
+### McKinsey & Company
+
+**Business Analyst, Market Entry** | 2014 - 2016
+
+- [B2B cloud paid growth: funnel recovery](./projects/b2b-cloud-paid-growth-funnel-recovery.md) - performance-funnel audit, CRO, channel economics, and controlled acquisition recovery
 
 ## Profile
 

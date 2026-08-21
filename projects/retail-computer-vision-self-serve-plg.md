@@ -1,49 +1,58 @@
-# Letting Retailers Prove Computer-Vision Value Before a Sales Cycle
+# Letting a retailer earn one camera insight before an enterprise sale
 
-I led this product-led growth work during my [AWS experience beginning in July 2024](https://github.com/beastofbayarea/shivam-singh-growth-marketing/blob/main/shivam-singh-growth-marketing.pdf).
+I led product-led growth for a retail computer-vision platform during my AWS role. I saw that retailers had to commit to a long technical project before learning whether their existing camera footage could improve a store decision. I worked with store and loss-prevention teams, customer technology and privacy leaders, product and computer-vision engineers, solutions architects, security, sales, finance, support, and executive sponsors.
 
-Retailers wanted insights from their existing cameras, but evaluating the product required about 12 weeks of custom networking, identity, security, and solutions-architect work. The company was spending expert time before the customer had seen one useful result.
+## The “premium” trial was twelve weeks of dependency
 
-I replaced that white-glove entry point with a self-service path designed around one promise: connect one camera and reach one retail insight safely.
+Each prospect waited for networking, identity, firewall, quota, security and architecture decisions led by a solutions architect. The company spent its most specialized capacity on repeatable setup while the customer had still seen no traffic, dwell or product-interaction insight.
 
-## I narrowed the first-value unit
+I narrowed the evaluation contract to one camera, more than one hour of eligible footage, and one viewed store insight. The starter path did not promise multi-site production, every camera type, live loss-prevention action or enterprise integration. It promised a bounded proof the retailer could complete under its own control.
 
-The initial trial did not attempt every enterprise integration. It used a starter kit and a fixed infrastructure-as-code deployment that could process one camera, produce lightweight metadata, and display one insight.
+This was strategic subtraction. Experts remained available after first value for production security, data integration, model fitness, operating procedures and multi-site scale; they were removed from routine trial orchestration.
 
-Video stayed at the edge. Only the information needed for the insight moved to the cloud. NIST's Privacy Framework influenced this data-minimization choice, while the AI Risk Management Framework shaped how I mapped the use, measured performance and harm, assigned ownership, and managed release risk.
+## The privacy architecture was also the growth architecture
 
-I deferred live video streaming because it increased privacy, bandwidth, and security complexity without improving the first proof of value.
+The first design request included live cloud video. I deferred it because continuous upload increased bandwidth, retention, privacy and security scope without improving the first proof.
 
-## Pre-flight diagnostics replaced avoidable calls
+Video was processed on an edge device in the store. The trial sent lightweight JSON event metadata over MQTT to the cloud for heatmaps, dwell, traffic and alerts. A fixed infrastructure-as-code package made the deployment reproducible.
 
-Most trial failures came from predictable environment conditions: quotas, security groups, IAM, and network paths. I built a read-only pre-flight audit that checked those conditions before deployment and returned specific remediation guidance.
+Edge processing reduced exposure; it did not make the product privacy-free. Event metadata can still describe people or sensitive behavior. The design needed purpose limitation, field minimization, retention, access control, location and time policy, model-performance analysis across conditions, signage or notice as applicable, and a deletion path.
 
-The diagnostic did not silently modify the customer's environment. It made the problem visible and let the customer or administrator choose the correction. This removed routine back-and-forth while preserving enterprise control.
+I used the [NIST Privacy Framework](https://www.nist.gov/privacy-framework/privacy-framework) to connect data processing to privacy risk and the [NIST AI Risk Management Framework](https://doi.org/10.6028/NIST.AI.100-1) to structure governance, use mapping, measurement and release decisions. They are voluntary external frameworks, not evidence of legal compliance.
 
-## Qualification moved into the product
+## I moved field knowledge into a pre-flight product
 
-A content download or demo request was a weak signal of buying intent. I defined a product-qualified account as one that had deployed the kit, processed footage, and viewed an insight.
+Most failures were environment mismatches rather than vision-model errors. I productized a read-only audit of service quotas, identity permissions, security groups, network path and required endpoints. It returned the failed condition, why it mattered, and a suggested remediation command.
 
-Sales and solutions architects entered after that event to help with multi-site rollout, production security, data integration, and enterprise operating design. I also aligned sales rewards with realized consumption rather than theoretical contract size, so the commercial motion reinforced durable use.
+The diagnostic did not execute the change. Customer administrators retained authority and could review the exact action. A deployment template could not be released until it passed the same audit in a clean sandbox, preventing manually repaired “snowflake” trials that customers could not reproduce.
 
-## What changed
+The retained record advertises a 15-minute deployment promise. The end-to-end evaluation still moved to about three weeks. Those are not contradictory if 15 minutes means starter-kit provisioning after prerequisites pass and three weeks includes customer approvals, footage, observation and decision. I keep the two clocks separate.
 
-- The evaluation cycle fell roughly 75%, from 12 weeks to about three.
-- Customer-acquisition cost declined 40%.
-- Paid conversion increased 15%.
-- Specialist capacity moved from repeatable trial setup to higher-value enterprise expansion.
+## Qualification became a product event
 
-## Why the result was a product change, not a funnel trick
+A guide download or demo request showed interest. A product-qualified account had done the work:
 
-Self-service worked because the product absorbed setup knowledge that previously lived in meetings. The fixed first-value unit, edge-processing boundary, infrastructure automation, and pre-flight audit made the evaluation reproducible.
+`deploy starter kit → connect camera → process >1 hour → view insight`
 
-That is the product-led growth standard I use for complex enterprise technology: let the product demonstrate a meaningful outcome on a safe, narrow path; bring experts in when the customer's context truly requires expertise.
+Only then did sales and solution architects enter to determine production value, sites, integrations, risks and commercial scale. That moved human expertise from explaining setup to expanding a demonstrated outcome.
 
-## External foundations
+I also changed the sales objective from theoretical contract value at signature toward realized paid consumption. Reps benefited when the retailer started safely, used the product, added cameras or sites, and sustained value. The compensation boundary matters because self-service acquisition fails if sales is still paid to maximize an unused commitment.
 
-These sources supplied the primary AI-governance and privacy methodology. My resume is linked only for employment chronology.
+## Funnel account
 
-| Source | How I applied it |
-|---|---|
-| [NIST — AI Risk Management Framework 1.0 (2023)](https://doi.org/10.6028/NIST.AI.100-1) | I used its govern-map-measure-manage cycle to structure the bounded computer-vision trial and release gates. |
-| [NIST — Privacy Framework 1.0 (2020)](https://www.nist.gov/privacy-framework/privacy-framework) | I used its data-processing and privacy-risk principles to keep video at the edge and minimize cloud data. |
+| Measure | Baseline | Product target | Recorded result | Measurement boundary |
+|---|---:|---:|---:|---|
+| Starter deployment | expert-scheduled | 15 min after prerequisites | source states 15-min promise | provisioning only; no observed percentile or pass rate retained |
+| Full evaluation cycle | 12 weeks | reduce time to a decision | ~3 weeks | 9 weeks and 75% shorter; start/end events must include equivalent customer approvals |
+| Customer-acquisition cost | index 100 | remove routine specialist work | index 60 | 40% lower; acquisition definition, loaded labor and cohort absent |
+| Paid conversion | baseline index 100 | improve after verified use | index 115 | source states +15%; relative versus points and denominator absent |
+| Product-qualified usage | no standard | deployed + processed + viewed | definition established | final count and PQA-to-paid rate absent |
+| Specialist capacity | routine mid-market trials | complex expansion | redeployed | hours and opportunity value not retained |
+
+The record supports an operating mechanism—setup knowledge absorbed into the product—and three directional funnel results. It does not support incremental revenue, number of customers, model accuracy, or a claim that every trial became production.
+
+## My growth ownership
+
+I owned the first-value contract, default self-service journey, edge-versus-cloud product trade-off, pre-flight requirements, product-qualified account definition, specialist handoff, consumption incentive, and funnel measurement. Engineering owned the model, edge runtime and automation. Customer owners controlled cameras and operating use. Privacy and security specialists retained approval. Sales owned expansion.
+
+The strategic outcome was a new economic boundary for an enterprise product: automate the repeatable uncertainty, let customers see a narrow result before a large commitment, and reserve experts for differences that genuinely require judgement.

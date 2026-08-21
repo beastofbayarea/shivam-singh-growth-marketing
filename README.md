@@ -33,6 +33,12 @@ Stories are grouped by their primary resume experience in reverse chronological 
 - [Retail computer vision: self-serve PLG](./projects/retail-computer-vision-self-serve-plg.md) - product-led acquisition, activation, and expansion
 - [Prime Student: global growth under a budget cut](./projects/prime-student-global-growth-budget-cut.md) - international growth prioritization and efficient allocation
 
+### Rakuten Group, Inc.
+
+**Growth & International Expansion - MBA Intern** | 2023
+
+- [Commerce growth data platform: real-time intent and predictive activation](./projects/commerce-growth-data-platform-real-time-intent.md) - trusted customer signals, cross-channel activation, CAC efficiency, and merchant conversion
+
 ### Microsoft Corporation
 
 **Senior Growth & Lifecycle Marketing Lead - Activation, Retention & PLG** | 2020 - 2022

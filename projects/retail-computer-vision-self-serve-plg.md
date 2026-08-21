@@ -8,7 +8,7 @@ Each prospect waited for networking, identity, firewall, quota, security and arc
 
 I narrowed the evaluation contract to one camera, more than one hour of eligible footage, and one viewed store insight. The starter path did not promise multi-site production, every camera type, live loss-prevention action or enterprise integration. It promised a bounded proof the retailer could complete under its own control.
 
-I owned the redesign of the entire acquisition motion around that first proof: edge-versus-cloud scope, camera and privacy prerequisites, automated pre-flight, product-qualified usage, specialist escalation, paid-consumption incentives, and funnel measurement. The result compressed an expert-dependent 12-week evaluation to roughly three weeks while reserving architects for multi-site expansion instead of spending scarce field capacity on routine setup.
+I rebuilt the entire acquisition motion around that first proof: edge-versus-cloud scope, camera and privacy prerequisites, automated pre-flight, product-qualified usage, specialist escalation, paid-consumption incentives, and funnel measurement. The result compressed an expert-dependent 12-week evaluation to roughly three weeks while reserving architects for multi-site expansion instead of spending scarce field capacity on routine setup.
 
 This was strategic subtraction. Experts remained available after first value for production security, data integration, model fitness, operating procedures and multi-site scale; they were removed from routine trial orchestration.
 

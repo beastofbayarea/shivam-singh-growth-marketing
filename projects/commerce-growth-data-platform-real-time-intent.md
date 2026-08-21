@@ -20,7 +20,7 @@ Peak testing exposed “ghost profiles.” Faster point-of-sale ingestion create
 
 I recommended delaying launch by three weeks. Temporary, manually curated segments kept holiday campaigns operating while data owners established the golden-record rule, match hierarchy, survivorship logic, consent and purpose checks, conflict resolution, and stewardship.
 
-I owned the decision to protect growth from bad identity at peak season, then the architecture and operating sequence that earned launch back. The program joined a 26-hour freshness problem, customer resolution, streaming and replay, privacy purpose, model treatment, seller activation, sales action, and Finance's commercial account—so a three-week delay could unlock sub-15-minute intent and a threefold seller-lead conversion result without multiplying duplicate customers.
+I delayed the launch to protect growth from bad identity at peak season, then set the architecture and operating sequence that earned it back. The program joined a 26-hour freshness problem, customer resolution, streaming and replay, privacy purpose, model treatment, seller activation, sales action, and Finance's commercial account—so a three-week delay could unlock sub-15-minute intent and a threefold seller-lead conversion result without multiplying duplicate customers.
 
 The $2 million was a customer forecast of avoidable spend, not a realized loss or saving. The decision to delay belonged to the customer; I owned the diagnosis, architectural recommendation, sequencing, and executive evidence.
 

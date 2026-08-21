@@ -10,7 +10,7 @@ Those observations did not prove that latency alone caused churn: weaker network
 
 I postponed emojis, dark mode, and other visible improvements. A polished surface had no value to a user who could not cross the license-and-sync boundary.
 
-I owned the first-session growth system across identity, synchronization, user state, regional network conditions, accessibility, support, lifecycle communication, and the Finance value model. I made the roadmap trade-off explicit, used Brazil as a controlled stress market, and required the 1,200-to-380-millisecond handshake improvement to connect through activation, retention, and support demand before supporting a $14 million annualized revenue-protection case.
+My first-session remit crossed identity, synchronization, user state, regional network conditions, accessibility, support, lifecycle communication, and the Finance value model. I made the roadmap trade-off explicit, used Brazil as a controlled stress market, and required the 1,200-to-380-millisecond handshake improvement to connect through activation, retention, and support demand before supporting a $14 million annualized revenue-protection case.
 
 ## I split “ready to look at” from “ready to change”
 

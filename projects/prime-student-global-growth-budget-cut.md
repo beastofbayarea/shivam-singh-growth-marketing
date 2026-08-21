@@ -8,6 +8,8 @@ The retained record gives the program a $1 million budget, half the prior yearâ€
 
 I designed three kinds of portability before the policy shock:
 
+I owned the cross-Amazon operating design that let a global student program absorb a 50% budget cut and a youth-policy channel blackout without rebuilding every market from scratch. My scope was the shared audience contract, internal-auction rules, governed creative components, local adaptation rights, policy substitution, market economics, and measurement reconciliationâ€”not simply a campaign calendar or a claim to all Prime Student revenue.
+
 - **Audience portability:** participating internal products could suppress an already reached or converted student without distributing direct identifiers broadly.
 - **Creative portability:** environment, benefit, hook, format and disclosure were separate approved modules that local teams could recombine.
 - **Channel portability:** the proposition could move among paid media, creators, email and owned placements without rebuilding the entire asset.

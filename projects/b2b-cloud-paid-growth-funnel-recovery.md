@@ -18,6 +18,8 @@ The diagnosis took 90 minutes because the advertising, site, and CRM feeds and m
 
 I kept the strongest 60% of the program unchanged as the operating baseline. Thirty percent of budget entered a treatment cell; the remaining 10% preserved flexibility for reallocation and operational variance.
 
+I owned the recovery as a portfolio of controlled capital, not a campaign refresh: protect the proven 60%, isolate 30% for treatment, retain a 10% decision reserve, and give executives a kill switch tied to acquisition cost, buyer quality, page integrity, retention, and holdout evidence. That made it possible to lower CPA from $65 to $48 and add 200 qualified leads without sacrificing the counterfactual needed to know whether the repair worked.
+
 Within the treatment I:
 
 - paused the 40% of keywords already shown to be weak rather than pausing 40% of spend indiscriminately;

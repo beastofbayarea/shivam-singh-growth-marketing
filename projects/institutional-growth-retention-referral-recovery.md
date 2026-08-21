@@ -10,6 +10,8 @@ The 2018 market context is plausible within my tenure. The [IMF’s July 2018 ou
 
 I treated investment recovery and relationship recovery as coupled but separately owned products. Portfolio management and risk owned capital allocation and model authority. I owned the client evidence, behavioral warning, communication and referral journey, and the cross-functional cadence connecting investment facts to client action.
 
+At a reported $5 billion strategy scale, that growth role carried balance-sheet-sized relationship stakes. I built the operating system that identified $500 million of at-risk AUM, prioritized human intervention, translated model and execution evidence for allocators, and separated the $225 million reported as retained or recovered from $200 million of referral AUM—so assets, fee economics, and causal attribution never collapsed into one inflated impact number.
+
 ## What I needed to understand before contacting a client
 
 The source says 70% of departing clients gave no explicit warning. I combined permitted signals—balance and liquidity views, portal logins, content use, service interactions, meeting changes, contact gaps, portfolio exposure, and relationship context—to prioritize human outreach.

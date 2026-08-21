@@ -1,5 +1,15 @@
 # Shivam Singh — Growth Marketing
 
+## Tell me about yourself
+
+**Q: Tell me about yourself / walk me through your background.**
+
+**A:** I am a growth leader with experience across paid acquisition, lifecycle, product-led growth, retention, and the data systems that connect those channels to customer economics. I began at McKinsey, where I worked on market entry and learned to diagnose a funnel by mechanism rather than treating blended CPA or conversion as the problem. In one B2B cloud recovery, that meant separating keyword waste, creative fatigue, audience drift, and landing-page failure while preserving a control group.
+
+At D. E. Shaw, my focus moved from acquisition to institutional retention and referrals. I learned that growth in a high-trust category depends on transparent product evidence and coordinated relationship action, not automated outreach alone. At Microsoft, I led activation and lifecycle work, including a first-run redesign that connected latency, useful fallback states, support demand, activation, and day-30 retention. During my MBA and subsequent work, I expanded into marketplace, global campaign, commerce-data, and product-led adoption problems. At AWS, that has included real-time seller intent and a self-service computer-vision evaluation that moved the first value event into the product.
+
+The common thread is disciplined growth under real constraints—budget, policy, measurement, technical friction, and sales capacity. I identify the most consequential break in the customer journey, change the channel or product mechanism causing it, preserve a counterfactual, and follow the cohort through retention and economic value. I am strongest where Growth, Product, Data, Sales, Finance, and regional teams need one measurable operating system.
+
 Growth is not a channel plan. It is a sequence of customer decisions whose economics still hold when attribution, budget, policy, and product friction are made visible.
 
 The projects here follow that sequence—from finding intent to earning first value, retaining trust, and scaling what remains incremental.

@@ -28,6 +28,20 @@ In [retail computer-vision self-service PLG](./projects/retail-computer-vision-s
 
 The [Prime Student global campaign under a 50% budget cut](./projects/prime-student-global-growth-budget-cut.md) was engineered so audience logic, creative claims, and channel activation could move independently. Overlap fell from 40% to 8%, local adaptation fell from 72 hours to six, and the operating system pivoted within 48 hours when youth-ad rules throttled 65% of direct-response assets. Recorded ROAS moved from 2.5× to 3.6× and the US program reached $48 million against a $50 million target. The project also exposes unresolved market counts and financial perimeters rather than manufacturing one global incrementality claim.
 
+## Channel-strength answer
+
+**Q: Which growth channels are you strongest in?**
+
+**A:** My deepest strengths are paid and account-based acquisition, lifecycle and product-led activation, and data-driven partner or market activation. I manage each as part of one customer and economic system—targeting, message, experience, handoff, retention, and incrementality—not as isolated channel output.
+
+**Paid and ABM:** In the B2B cloud funnel recovery, CTR had fallen 20% and CPA had risen 15%. I isolated low-intent search, creative fatigue, audience drift, and dead landing pages instead of relaunching the whole program. Keeping 60% unchanged as control allowed us to move CPA from $65 to $48, improve CTR 25%, add 200 holdout-adjusted qualified leads, and reduce paid traffic reaching dead paths from 15% to below 2%. The treated cohort also recorded 20% higher six-month retention, so the decision was not based on cheap acquisition alone.
+
+**Lifecycle and product-led growth:** On enterprise onboarding, I turned first-run latency into an activation lever by rendering safe orientation before full write authority arrived. Activation moved from 62% to 81%, weekly authentication and synchronization tickets fell from 450 to 65, and day-30 retention rose 12%. For retail computer vision, I defined the product-qualified event as deploying one camera, processing one hour, and viewing one insight. That reduced full evaluation from twelve weeks to roughly three, lowered CAC 40%, and increased paid conversion 15%.
+
+**Data-driven market and partner activation:** For an AWS commerce customer, I put identity and event quality ahead of propensity activation. Signal freshness moved from as much as 26 hours to under fifteen minutes, seller-lead conversion rose from 1.8% to 5.4%, first-year seller GMS rose from $12,000 to $28,000, and maintenance fell 90%. In the Prime Student campaign, a portable audience and creative system operated under a 50% budget cut, reduced overlap from 40% to 8%, cut local adaptation from 72 hours to six, and pivoted within 48 hours when policy throttled 65% of direct-response assets. Recorded ROAS moved from 2.5× to 3.6×, with attribution limits preserved.
+
+Retention is the test across all three strengths. The institutional-growth program used behavioral risk, transparent content, and relationship outreach to retain or recover $225 million of a $500 million at-risk pool and generate $200 million in referred AUM. I would not claim equal depth in a channel such as technical SEO without equivalent evidence. My advantage is connecting the channels I do lead to controlled measurement, product behavior, sales or partner handoffs, cohort value, and an explicit scale or rollback decision.
+
 ## How I lead growth
 
 I work across acquisition, product-led adoption, lifecycle, data, sales, finance, privacy, and market teams. I choose the constraint, define the customer state change, protect a counterfactual, set scale and rollback rules, and keep attributed activity separate from incremental value.

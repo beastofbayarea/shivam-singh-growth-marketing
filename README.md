@@ -14,7 +14,7 @@ I care about incrementality because growth should survive contact with finance. 
 
 ## Growth problems I explore
 
-I’ve kept the experience order reverse chronological, but each project stands on its own. Open any one and you’ll find the diagnosis, the choices I tested, the operating plan, the risks, and the metrics. The external sources inside the file ground the market context and methodology.
+I’ve kept the experience order reverse chronological, but each project stands on its own. Every walkthrough is rebuilt around its own customer journey, economic constraint, evidence and decision. The files preserve holdout limits, attribution scope, estimated versus realized value, chronology, source conflicts and any metric that cannot be reconciled.
 
 ### Amazon Web Services (AWS)
 
@@ -22,19 +22,15 @@ I’ve kept the experience order reverse chronological, but each project stands 
 
 #### [Retail computer vision: self-serve PLG](./projects/retail-computer-vision-self-serve-plg.md)
 
-I replaced a twelve-week, solutions-architect-led trial with a self-service product experience. Edge processing, infrastructure-as-code, pre-flight diagnostics, product-qualified usage, and consumption-aligned sales incentives let customers reach a retail insight before making an enterprise commitment.
+I narrowed a twelve-week, solutions-architect-led trial to one camera, one hour of footage and one viewed insight. Edge processing, reproducible infrastructure, read-only diagnostics, a product-qualified account event and consumption-aligned sales incentives let retailers test value before committing to enterprise scale; the file keeps the 15-minute provisioning promise separate from the three-week evaluation result.
 
 #### [Prime Student: global growth under a budget cut](./projects/prime-student-global-growth-budget-cut.md)
 
-I built a reusable ten-market growth engine under a 50% budget cut. Privacy-safe audience suppression, modular localization, tiered market investment, and channel portability eliminated internal bidding waste and enabled a 48-hour response when youth-ad rules throttled most direct-response assets.
-
-### Rakuten Group, Inc.
-
-**Growth & International Expansion - MBA Intern** | 2023
+I built a portable audience, creative and channel system for a Prime Student campaign under a 50% budget cut, then used it to pivot within 48 hours when youth-ad rules throttled most direct-response assets. The source is a composite of Prime Student and Rakuten Sports records under an AWS employment period, names only eight of ten markets, and contains three financial inconsistencies; the walkthrough exposes each rather than presenting a false unified ROI.
 
 #### [Commerce growth data platform: real-time intent and predictive activation](./projects/commerce-growth-data-platform-real-time-intent.md)
 
-I led a 15 TB customer-data modernization spanning seven systems and turned it into a growth engine for a large commerce business. The program deliberately sequenced identity integrity before real-time pipelines and predictive activation, preventing faster ingestion from amplifying duplicate profiles, wasted media, and poor seller prioritization.
+I led product and architecture strategy for an AWS commerce customer whose stale signals and duplicate identities were distorting marketing and seller prioritization. The source explicitly assigns this work to AWS—not Rakuten—and distinguishes my advisory ownership from the customer’s launch, operations and commercial outcomes.
 
 ### Microsoft Corporation
 
@@ -42,15 +38,15 @@ I led a 15 TB customer-data modernization spanning seven systems and turned it i
 
 #### [Enterprise onboarding: zero-wait first run](./projects/enterprise-onboarding-zero-wait-first-run.md)
 
-I turned first-run performance into a growth lever by redesigning an enterprise product's authentication and synchronization handshake. Safe cached state, parallel validation, poor-network fallbacks, and a staged global rollout connected P95 latency directly to activation, retention, support load, and revenue protection.
+I turned first-run performance into a growth lever by separating safe cached orientation from authorized editing, testing the parallel handshake under variable Brazilian networks, and giving degraded states a useful fallback. The account connects P95 latency to activation and support outcomes while keeping a $14M annualized retention model distinct from booked revenue.
 
 ### The D. E. Shaw Group
 
-**Demand Generation Lead - FinTech Growth Analytics** | 2016 - 2020
+**Demand Generation Lead - FinTech Growth Analytics** | July 2016 - December 2019
 
 #### [Institutional growth: retention and referral recovery](./projects/institutional-growth-retention-referral-recovery.md)
 
-I led a coordinated product and lifecycle response when a $5B emerging-markets strategy entered a new volatility regime. Behavioral churn signals, proactive customer communication, a transparent risk portal, and evidence-led recovery journeys repaired trust while turning retention into referral-driven growth.
+I led the client-retention and growth response when a stated $5B emerging-markets strategy entered a different market regime. Behavioral warning, a transparent risk portal, client-question feedback and evidence-led outreach joined the investment and relationship response without claiming growth ownership of the trading model or treating retained and referred assets as revenue.
 
 ### McKinsey & Company
 
@@ -58,4 +54,4 @@ I led a coordinated product and lifecycle response when a $5B emerging-markets s
 
 #### [B2B cloud paid growth: funnel recovery](./projects/b2b-cloud-paid-growth-funnel-recovery.md)
 
-I recovered a deteriorating B2B paid funnel through controlled isolation rather than a wholesale relaunch. Live instrumentation exposed keyword waste, creative decay, and audience drift; a 30% treatment budget and predefined rollback protected the baseline while the team restored relevance.
+I recovered a deteriorating B2B paid funnel by isolating keyword waste, creative decay, audience drift and landing-page loss instead of relaunching everything. An unchanged baseline, 30% treatment budget, kill switch and six-month cohort view separated immediate demand capture from durable customer quality.

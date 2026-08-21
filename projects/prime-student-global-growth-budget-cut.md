@@ -2,7 +2,7 @@
 
 The program had half the prior-year budget, a stated ten-market remit, 40% overlap among internal audiences, and an estimated $2 million cost for fully bespoke local production. Then a youth-ad policy change throttled 65% of direct-response assets.
 
-During my AWS tenure, I led the cross-Amazon operating system across students, Prime, Video, Music, local marketers, creators, media, privacy/legal, analytics, engineering, finance, and leaders. The strategic task was to keep the campaign portable when either money or channel access disappeared.
+During my AWS tenure, I designed the cross-Amazon operating system spanning students, Prime, Video, Music, local marketers, creators, Media, Privacy/Legal, Analytics, Engineering, Finance, and leaders. Its strategic job was portability when money or channel access disappeared.
 
 ## Three forms of portability
 
@@ -52,6 +52,6 @@ The $48 million, 3.2 million, 3.6× ROAS, and $1 million budget cannot share one
 
 The retained page combines Prime Student and Rakuten Sports sources, Amazon internal audiences, ten-market structure, and current AWS employment. I present it as a composite cross-Amazon assignment, not an AWS product launch or one fully reconciled interview claim.
 
-I owned portability design, audience rules, creative component system, youth-policy pivot, market portfolio, measurement requirements, and cadence. Businesses owned offers/audiences; local teams owned culture/legal review; privacy owned matching; finance owned economics.
+Portability, audience rules, the creative component system, youth-policy pivot, market portfolio, measurement, and cadence were the decisions attached to my role. Businesses retained offers/audiences; local teams culture/legal review; Privacy matching; Finance economics.
 
 The durable contribution was resilience engineered before failure: the growth system could substitute audience, creative, and channel components quickly—but only claims whose economics reconciled were allowed to survive.

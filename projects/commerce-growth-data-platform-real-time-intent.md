@@ -4,7 +4,7 @@ Faster data would have amplified the wrong customer.
 
 The commerce client held 15 TB across seven systems. Routine batches took about 12 hours; peak signals arrived as much as 26 hours late. Marketing could advertise products already purchased, sales worked stale seller lists, and one person appeared under multiple POS, commerce, CRM, and web identifiers.
 
-During my AWS role, I led the product/architecture strategy across customer teams, data engineering, marketing, sales, finance, merchant operations, privacy, AWS architects, and executives.
+During my AWS role, I set the product and architecture direction with customer teams, Data Engineering, Marketing, Sales, Finance, Merchant Operations, Privacy, AWS architects, and executives.
 
 ## I reordered the roadmap
 
@@ -70,6 +70,6 @@ The model could not claim a merchant who would have joined anyway, and seller GM
 
 The client finished peak $25 million above its Q4 sales target. Pricing, demand, inventory, marketing, seller mix, and platform all contributed; I present it as business context, not incremental sales caused by my work.
 
-I owned the sequencing decision, architecture, workshops, game-day interpretation, launch-delay recommendation, 20% control, and commercial scorecard. Client leaders owned production data, campaigns, sales action, launch authority, and realized outcomes.
+The sequence, architecture, workshops, game-day interpretation, delay recommendation, 20% control, and commercial scorecard formed my engagement scope. Client leaders retained production data, campaigns, sales action, launch authority, and realized outcomes.
 
 My contribution was to make identity integrity a growth dependency. Once the organization accepted that premise, speed became an advantage instead of a multiplier of duplicate customers and bad decisions.

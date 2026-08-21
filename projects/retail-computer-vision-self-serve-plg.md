@@ -2,7 +2,7 @@
 
 The enterprise trial required twelve weeks of networking, identity, firewall, quota, security, and architecture work led by scarce solution architects. Customers had to commit to a project before learning whether their own footage could improve a store decision.
 
-During my AWS role, I led the product-led growth redesign across store/loss-prevention teams, customer technology/privacy leaders, computer-vision engineering, solution architecture, security, sales, finance, support, and executives.
+During my AWS role, I reshaped the product-led growth motion with Store/Loss Prevention, customer Technology/Privacy leaders, Computer Vision, Solution Architecture, Security, Sales, Finance, Support, and executives.
 
 ## One camera. One hour. One viewed insight.
 
@@ -60,6 +60,6 @@ I also shifted sales incentive from theoretical signed commitment toward realize
 
 The record supports the operating mechanism and directional funnel changes; it does not support incremental revenue, customer count, vision accuracy, or universal production conversion.
 
-I owned the first-value contract, self-service journey, edge/cloud trade-off, pre-flight, product-qualified definition, specialist handoff, consumption incentive, and funnel account. Engineering owned model/edge/automation; customers controlled cameras and use; privacy/security retained approval; sales owned expansion.
+The one-camera first-value contract, self-service journey, edge/cloud choice, pre-flight, product-qualified definition, specialist handoff, consumption incentive, and funnel account were the pieces I designed. Engineering built model/edge/automation; customers controlled cameras/use; Privacy/Security approved; Sales expanded.
 
 The strategic achievement was a new boundary for enterprise growth: automate repeatable uncertainty, let the customer produce one narrow proof before a large commitment, and reserve experts for the differences where expert judgment creates value.

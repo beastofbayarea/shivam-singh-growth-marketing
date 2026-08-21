@@ -2,7 +2,7 @@
 
 Click-through rate was down 20%, cost per acquisition was up 15%, and a 2,500-trial target was at risk. The tempting response was to refresh everything. I refused because a full relaunch would erase the counterfactual and hide which failure had been repaired.
 
-At McKinsey, I led the paid-growth recovery across cloud buyers, founders and technology leaders, media/creative, web owners, sales, marketing operations, finance, and client executives.
+At McKinsey, I ran the paid-growth recovery with cloud buyers, founders/technology leaders, Media/Creative, web owners, Sales, Marketing Operations, Finance, and client executives.
 
 ## The 90-minute diagnosis found four different leaks
 
@@ -58,6 +58,6 @@ The dead-page correction is associated with ~$75,000 modeled spend avoidance. Th
 
 I installed daily anomaly detection on CPA, CTR, volume, buyer-role mix, page loss, and creative age; a 15-minute cause-isolation review; isolated treatments; and explicit scale/rollback rules. Quarterly audits prevented quiet keyword sprawl and 90-day creative stagnation.
 
-I owned the diagnostic logic, budget isolation, treatments, audience/creative choices, kill switch, demand-capture versus demand-creation trade-off, and executive definitions. Channel teams executed; sales owned qualification; finance owned customer economics; product/legal owners substantiated claims.
+The diagnostic logic, budget isolation, treatment cells, audience/creative choices, kill switch, capture-versus-creation trade-off, and executive definitions were my calls. Channel teams executed; Sales qualified; Finance controlled customer economics; Product/Legal substantiated claims.
 
 The strategic result was not one lower CPA. It was a growth system that could repair distinct failure modes while preserving the evidence needed to know whether efficiency, buyer quality, and retention actually improved.

@@ -4,7 +4,7 @@ A reported $5 billion emerging-markets strategy had two products in distress.
 
 The investment process kept buying declines as markets became more persistent and liquidity fragmented; execution slippage moved from 5 to 50 basis points. Clients could see performance but not the regime, risk drivers, liquidity, or decisions behind it. Seventy percent of departing clients reportedly gave no explicit warning.
 
-At D. E. Shaw, I led the relationship-recovery system across institutional clients, relationship managers, portfolio management, quantitative research, risk, execution, investor relations, compliance, product/technology, and leadership. Investment teams retained model and capital authority; I owned the evidence, warning, communication, and referral journeys connecting portfolio facts to client action.
+At D. E. Shaw, I built the relationship-recovery system with institutional clients, relationship managers, Portfolio Management, Quant Research, Risk, Execution, Investor Relations, Compliance, Product/Technology, and leadership. Investment teams kept model/capital authority; the evidence, warning, communication, and referral journeys connecting portfolio facts to client action were my remit.
 
 ## Two recovery loops ran in parallel
 
@@ -59,6 +59,6 @@ Referral entered only after current evidence and recovery conversations. Asking 
 
 A “$12.75 per dollar” ROI cannot be reconstructed and appears to mix retained/referred assets with value. I exclude it.
 
-I owned the at-risk definition, permitted signal system, human escalation, portal requirements, communication architecture, question taxonomy, retention/referral sequencing, evidence cadence, and metric boundaries. Investment/risk/execution owned strategy; relationship managers owned advice/contact; compliance approved communication; finance owned flows and fees.
+Defining at-risk relationships, permitted signals, human escalation, portal requirements, communication architecture, question taxonomy, retention/referral sequence, evidence cadence, and metric boundaries was my growth responsibility. Investment/Risk/Execution controlled strategy; relationship managers controlled advice; Compliance approved communication; Finance controlled flows/fees.
 
 The strategic growth capability was a closed loop: changing markets altered portfolio action, changing client behavior altered relationship action, and repeated client questions altered the product. Trust came from inspectable operating evidence, not reassurance layered over performance.

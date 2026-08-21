@@ -6,7 +6,7 @@ New users who hit audio or synchronization delay were 3× as likely to churn; 65
 
 Those signals were not clean causality—network, device, segment, and administrator configuration could affect both delay and churn—but they showed where to test.
 
-During my Microsoft role, I led onboarding growth across users, administrators, identity/sync engineering, design, accessibility, localization, support, lifecycle marketing, finance, and regional teams. I postponed emojis, dark mode, and visible polish to make **first successful edit** the roadmap priority.
+During my Microsoft role, I took responsibility for onboarding growth across users, administrators, Identity/Sync Engineering, Design, Accessibility, Localization, Support, Lifecycle Marketing, Finance, and regions. I postponed emojis, dark mode, and visible polish to make **first successful edit** the roadmap priority.
 
 ## I split visual readiness from write authority
 
@@ -53,6 +53,6 @@ This turned onboarding into a shared cross-functional release: an identity chang
 
 The project associates the change with $14 million annual recurring revenue protected, modeled as retained-seat delta × ARPU × 12. It is annualized counterfactual value, not booked revenue. Treatment/control seats, window, expansion/contraction, price, and attribution share would substantiate it.
 
-I owned the first-value definition, roadmap trade-off, state/fallback requirements, Brazil experiment, rollout gates, lifecycle communication, measurement chain, and finance bridge. Identity/sync teams owned protocol correctness; design/accessibility owned the understandable state; finance owned value; regions/support owned feedback.
+First value, the roadmap trade-off, state/fallback requirements, Brazil experiment, rollout gates, lifecycle communication, measurement chain, and Finance bridge were my accountability. Identity/Sync protected protocol correctness; Design/Accessibility protected comprehension; Finance valued impact; Regions/Support returned feedback.
 
 The durable growth move was to redefine onboarding. It was not a tour; it was the first moment the product proved it could recognize a person, show useful state, and accept a real action under imperfect global network conditions.

@@ -1,58 +1,55 @@
-# Commerce Growth Data Platform - Real-Time Intent and Predictive Activation
+# Making Real-Time Commerce Intent Trustworthy Enough to Activate
 
-## What I worked on
+I led this 15-terabyte customer-data modernization during my [Rakuten experience from June to December 2023](https://github.com/beastofbayarea/shivam-singh-growth-marketing/blob/main/shivam-singh-growth-marketing.pdf).
 
-I completed this work during my [Rakuten experience from 2023](https://github.com/beastofbayarea/shivam-singh-growth-marketing/blob/main/shivam-singh-growth-marketing.pdf).
+Peak customer signals arrived as much as 26 hours late and identities were duplicated across seven systems. Growth teams targeted the same people repeatedly, Sales worked from static lead lists, and the original roadmap prioritized faster ingestion before identity quality.
 
-I led a 15 TB customer-data modernization spanning seven systems and turned it into a growth engine for a large commerce business. The program deliberately sequenced identity integrity before real-time pipelines and predictive activation, preventing faster ingestion from amplifying duplicate profiles, wasted media, and poor seller prioritization.
+I reversed that sequence. Faster bad identity would only create more immediate media waste and poorer seller prioritization.
 
-## At a glance
+## First, I proved that freshness could change behavior
 
-- I reduced peak customer-signal latency from 26 hours to under 15 minutes while lowering infrastructure cost 30%.
-- I made golden-record identity resolution the first requirement after stress tests exposed duplicate profiles and roughly $2M in projected media waste.
-- I launched behavior-based propensity scoring that reduced CAC 20%, increased lead conversion from 1.8% to 5.4%, and raised recruited-seller first-year sales from $12K to $28K.
+A two-week regional pilot showed that live intent converted at three times the rate of stale signals. That established the commercial value of lower latency without yet committing the organization to a full rebuild.
 
-## The situation
+I then ran a peak-condition game day. It revealed ghost profiles, overlapping audiences, and conflicting targeting with approximately $2 million in projected media waste. I recommended a three-week launch delay and made golden-record identity resolution the first production requirement.
 
-A large commerce business used stale signals and duplicate customer records during peak events. Growth teams duplicated targeting, sales prioritized static lists, and the original roadmap emphasized ingestion speed before identity quality and measurement trust.
+## The architecture followed the decision sequence
 
-## What I needed to accomplish
+I organized the platform in three layers:
 
-I needed to create a resilient growth-data platform that delivered current, trusted intent and measurable activation value across engineering, marketing, sales, finance, and merchant operations.
+1. Identity integrity: entity resolution, golden records, consent, lineage, and rules for conflicting attributes.
+2. Current signals: direct connectors, raw backup, streaming events, and schema contracts.
+3. Activation: propensity scores, audience delivery, seller prioritization, and controlled measurement.
 
-## What I did
+The NIST Privacy Framework influenced how I treated data processing, governance, and privacy risk across the lifecycle. METI's AI governance guidance supplied Japan-specific principles for accountable implementation, monitoring, and stakeholder communication.
 
-- I used a two-week regional pilot to show that live intent produced three-times-higher conversion before approving the broader rebuild.
-- I recommended a three-week launch delay when a game day exposed ghost profiles, overlapping audiences, and conflicting targeting.
-- I implemented direct connectors, raw backup, streaming events, schema contracts, entity resolution, and a golden customer record.
-- I maintained a random 20% control group around predictive lead scoring to protect unconventional but valuable sellers and separate causal lift from correlation.
+The architecture therefore did more than move data quickly. It preserved a recoverable raw record, made schema ownership explicit, resolved who a customer was, and carried approved signals into activation.
 
-## The results
+## Predictive activation kept a protected control
 
-- Signal latency fell below 15 minutes, and infrastructure cost fell 30%.
-- CAC declined 20%, and lead conversion tripled to 5.4%.
-- Recruited-seller first-year sales increased from $12K to $28K.
-- The peak event ran with zero downtime and finished $25M above the Q4 sales target.
+I introduced behavior-based propensity scoring for seller recruitment but retained a random 20% control cohort. That served two purposes. It created a credible estimate of lift, and it prevented the model from permanently excluding unconventional sellers who did not resemble historical winners.
 
-## Decisions and trade-offs
+I measured acquisition cost, lead conversion, seller activation, first-year sales, identity quality, audience overlap, and platform reliability together. A predictive score had to improve commercial outcomes without hiding weak segments or amplifying data errors.
 
-- I chose identity integrity over the original launch date.
-- I sequenced identity, then pipelines, then predictive activation.
-- I used architecture game days and control cohorts to separate causal growth from correlation.
+## The result across the system
 
-## How I led
+- Peak signal latency fell from 26 hours to under 15 minutes.
+- Infrastructure cost declined 30%.
+- Customer-acquisition cost fell 20%.
+- Lead conversion tripled from 1.8% to 5.4%.
+- Recruited-seller first-year sales increased from $12,000 to $28,000.
+- The peak event ran without downtime and finished $25 million above the Q4 sales target.
 
-I created one commercial and technical scorecard across five functions, translating data quality from an engineering concern into audience trust, merchant growth, and revenue quality.
+## How I made data quality a growth decision
 
-## Why I chose this approach
+Engineering, Marketing, Sales, Finance, and Merchant Operations used one scorecard that connected duplicate identity and stale signals to media waste, seller quality, and revenue. That made the launch delay legible as a commercial choice, not technical perfectionism.
 
-I used [NIST - Privacy Framework 1.0 (2020)](https://www.nist.gov/privacy-framework/privacy-framework) to ground privacy-risk, data-processing, and governance framework. I used [METI - Governance Guidelines for Implementation of AI Principles v1.1 (2022)](https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20220128_report.html) to ground japan-specific AI governance foundation.
+My lasting principle is simple: identity first, transport second, prediction third. Real-time activation creates value only when the platform knows whose intent it is observing and can measure what changed because of the action.
 
-## Sources and external context
+## External foundations
 
-I used independent methodology and market evidence to shape the work. The resume link above is included only to establish the employment timeline.
+These sources supplied the primary privacy and AI-governance methodology. My resume is linked only to establish employment chronology.
 
-| Source | How it informed my work | Timing |
-|---|---|---|
-| [NIST - Privacy Framework 1.0 (2020)](https://www.nist.gov/privacy-framework/privacy-framework) | I used it to ground privacy-risk, data-processing, and governance framework. | — |
-| [METI - Governance Guidelines for Implementation of AI Principles v1.1 (2022)](https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20220128_report.html) | I used it to ground japan-specific AI governance foundation. | — |
+| Source | How I applied it |
+|---|---|
+| [NIST — Privacy Framework 1.0 (2020)](https://www.nist.gov/privacy-framework/privacy-framework) | I used its privacy-risk and data-processing lifecycle to structure identity, consent, lineage, and governance requirements. |
+| [METI — Governance Guidelines for Implementation of AI Principles v1.1 (2022)](https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20220128_report.html) | I used its accountable AI implementation and monitoring guidance for predictive activation in Japan. |

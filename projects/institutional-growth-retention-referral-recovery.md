@@ -1,59 +1,58 @@
-# Institutional Growth - Retention and Referral Recovery
+# Rebuilding Institutional Trust During a Fund Recovery
 
-## What I worked on
+I led this retention and referral work during my [D. E. Shaw experience from July 2016 to December 2019](https://github.com/beastofbayarea/shivam-singh-growth-marketing/blob/main/shivam-singh-growth-marketing.pdf).
 
-I completed this work during my [D. E. Shaw experience from 2016 to 2020](https://github.com/beastofbayarea/shivam-singh-growth-marketing/blob/main/shivam-singh-growth-marketing.pdf).
+A $5 billion emerging-markets strategy designed for mean reversion encountered a persistent trend regime shaped by inflation and geopolitical shocks. The investment team had to repair the strategy; customers also needed to understand what had changed, what the portfolio was doing, and how risk was being managed. Delayed, opaque reporting created a second threat: silent redemption risk.
 
-I led a coordinated product and lifecycle response when a $5B emerging-markets strategy entered a new volatility regime. Behavioral churn signals, proactive customer communication, a transparent risk portal, and evidence-led recovery journeys repaired trust while turning retention into referral-driven growth.
+I treated investment recovery and relationship recovery as one coordinated lifecycle problem.
 
-## At a glance
+## I looked for risk before the redemption request
 
-- I protected customer relationships during a $5B fund recovery by connecting portfolio events, behavioral risk signals, and lifecycle outreach.
-- I built a transparent customer experience around regime, risk drivers, portfolio posture, liquidity, and guarded scenario analysis.
-- I achieved 99.8% retention, protected $225M of identified at-risk assets, added $200M through referrals, and raised NPS from 78 to 96.
+I combined portfolio exposure, portal engagement, service interactions, meeting behavior, and relationship context to identify customers whose information needs or behavior had changed. The signals prioritized outreach; they did not automate a conclusion about a person's intent.
 
-## The situation
+I segmented the response by exposure, observed behavior, relationship value, and information need. A customer seeking liquidity detail required a different conversation from one questioning the regime model or the team's response.
 
-A strategy designed for mean reversion failed when inflation and geopolitical shocks created a persistent trend regime. Delayed, black-box reporting left customers unable to understand risk and created silent churn exposure.
+## Transparency needed useful boundaries
 
-## What I needed to accomplish
+I built a customer experience that explained the current regime, the primary risk drivers, portfolio posture, liquidity, and guarded scenario analysis. The goal was to make the decision process legible without exposing proprietary source code or presenting uncertain scenarios as forecasts.
 
-I needed to protect customer relationships while the investment team repaired the strategy, then convert transparent recovery evidence into retention, advocacy, and referral growth.
+FINRA Rule 2210 supplied the communications foundation: material had to be fair, balanced, appropriate for the audience, and not misleading. COSO's internal-control framework influenced the operating model around reliable information, ownership, communication, and monitoring.
 
-## What I did
+Those principles shaped a disciplined update:
 
-- I combined portfolio, engagement, service, and relationship signals to identify at-risk customers before redemption decisions.
-- I segmented outreach by exposure, behavior, relationship value, and information need.
-- I built a customer portal showing current regime, risk drivers, specialist posture, liquidity, and guarded scenario analysis.
-- I coordinated proactive lifecycle communications across portfolio management, risk, execution, and investor-relations teams.
-- I used customer questions and engagement patterns to improve education, recovery messaging, and relationship follow-up.
+- what had changed in the market;
+- how the existing strategy responded;
+- what the team had observed;
+- what action had been taken;
+- what uncertainty remained; and
+- what evidence would change the next decision.
 
-## The results
+## Customer questions improved the recovery loop
+
+Portfolio Management, Quant Research, Risk, Execution, Investor Relations, and customer-facing teams shared one cadence and evidence base. Questions from customers were tagged back to the information gap they revealed. Repeated confusion changed the portal, education, or follow-up—not just the wording of the next email.
+
+I measured retention, identified at-risk assets, engagement with recovery information, follow-up completion, advocacy, referral activity, and customer sentiment. That helped distinguish quiet non-response from genuine understanding and allowed the team to focus human attention where it mattered.
+
+## What changed
 
 - Retention reached 99.8%.
-- The program protected $225M of $500M in identified at-risk AUM.
-- Referrals added $200M in new AUM.
-- NPS increased from 78 to 96.
+- The program protected $225 million of $500 million in identified at-risk assets under management.
+- Referrals added $200 million in new assets under management.
+- Net Promoter Score increased from 78 to 96.
 
-## Decisions and trade-offs
+The referral outcome followed the trust repair; it was not the opening ask. I waited until customers had current evidence and a clear view of the team's actions before treating advocacy as a growth channel.
 
-- I treated strategy recovery and customer understanding as one lifecycle problem.
-- I used guided transparency without exposing proprietary source code.
-- I prioritized at-risk relationships through behavioral evidence rather than generic broadcast communication.
+## The principle I took forward
 
-## How I led
+During uncertainty, retention communication cannot be a polished substitute for operating evidence. I connect the product or investment team's actual decisions to an audience-appropriate explanation, then use customer behavior and questions to improve both the experience and the operating response.
 
-I aligned portfolio management, quant research, risk, execution, investor relations, and customer-facing teams around one retention model, communication cadence, and evidence-based recovery journey.
+That is how a difficult period can produce durable trust rather than temporary reassurance.
 
-## Why I chose this approach
+## External foundations
 
-I used [FINRA Rule 2210](https://www.finra.org/rules-guidance/rulebooks/finra-rules/2210) to ground fair, balanced, audience-appropriate communications standard. I used [COSO - Internal Control Integrated Framework (2013)](https://www.coso.org/guidance-on-ic/pages/default.aspx) to ground reliable-information, ownership, and monitoring framework.
+These sources supplied the primary communications and control methodology. My resume is linked only to establish employment chronology.
 
-## Sources and external context
-
-I used independent methodology and market evidence to shape the work. The resume link above is included only to establish the employment timeline.
-
-| Source | How it informed my work | Timing |
-|---|---|---|
-| [FINRA Rule 2210](https://www.finra.org/rules-guidance/rulebooks/finra-rules/2210) | I used it to ground fair, balanced, audience-appropriate communications standard. | — |
-| [COSO - Internal Control Integrated Framework (2013)](https://www.coso.org/guidance-on-ic/pages/default.aspx) | I used it to ground reliable-information, ownership, and monitoring framework. | — |
+| Source | How I applied it |
+|---|---|
+| [FINRA — Rule 2210: Communications with the Public](https://www.finra.org/rules-guidance/rulebooks/finra-rules/2210) | I used its fair, balanced, audience-appropriate standard for recovery communications and scenario discussion. |
+| [COSO — Internal Control—Integrated Framework](https://www.coso.org/guidance-on-ic/pages/default.aspx) | I used its reliable-information, ownership, communication, and monitoring principles to organize the cross-functional response. |

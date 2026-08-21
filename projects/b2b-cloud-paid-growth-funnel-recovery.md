@@ -1,58 +1,49 @@
-# B2B Cloud Paid Growth — Funnel Recovery
+# Recovering a B2B Cloud Acquisition Funnel Without Resetting It
 
-## What I worked on
+I did this work during my [McKinsey experience from July 2014 to June 2016](https://github.com/beastofbayarea/shivam-singh-growth-marketing/blob/main/shivam-singh-growth-marketing.pdf).
 
-I completed this work during my [McKinsey experience from 2014 to 2016](https://github.com/beastofbayarea/shivam-singh-growth-marketing/blob/main/shivam-singh-growth-marketing.pdf).
+The paid funnel was deteriorating in ways that could easily trigger an indiscriminate relaunch. Click-through rate had fallen 20%, customer-acquisition cost had increased 15%, and a 2,500-trial target was at risk. Twenty percent of spend sat on keywords below 1% CTR, creative engagement had decayed 30%, and targeting had drifted away from actual decision makers.
 
-I recovered a deteriorating B2B paid funnel through controlled isolation rather than a wholesale relaunch. Live instrumentation exposed keyword waste, creative decay, and audience drift; a 30% treatment budget and predefined rollback protected the baseline while the team restored relevance.
+I chose a controlled repair. The goal was to isolate the failing mechanisms while protecting the campaigns and demand signals that still worked.
 
-## At a glance
+## Ninety minutes to a usable diagnosis
 
-- I diagnosed a 20% CTR decline and 15% CAC increase within 90 minutes using joined ad, web, and CRM data.
-- I paused proven waste, moved $50K to exact-match intent, launched ten new ads in 48 hours, and narrowed targeting to actual decision makers.
-- I reduced CPA from $65 to $48, increased CTR 25%, generated 200 additional qualified leads, and lowered dead-page waste below 2% in 14 days.
+I joined advertising, website, and CRM data into one live view of spend, search intent, creative response, page behavior, qualification, and downstream customer value. That exposed three distinct problems: low-intent keyword waste, creative fatigue, and audience composition.
 
-## The situation
+The distinction mattered because each problem needed a different intervention. A blanket bid reduction might improve headline CPA while suppressing valuable intent. A new creative set would not fix dead-page traffic. Broader targeting could generate more leads while lowering buyer quality.
 
-A target of 2,500 trials was at risk. Twenty percent of spend sat on keywords below 1% CTR, creative engagement had decayed 30%, and audience targeting had drifted away from buyers.
+## I protected the baseline while treating the problem
 
-## What I needed to accomplish
+I left the strongest 60% of the program unchanged and used 30% of budget for the treatment. The remaining budget protected operational flexibility. I paused proven waste, moved $50,000 toward exact-match high-intent terms, produced ten new ads within 48 hours, and narrowed roles toward observed decision makers.
 
-I needed to repair current-quarter acquisition economics without damaging future demand or turning off campaigns that continued to perform.
+I established a $75 CPA kill switch and a three-day decision read before scale. An unchanged campaign group served as the counterfactual. The World Bank's impact-evaluation methodology influenced this design: without a credible comparison, broad market movement or seasonal demand could be mistaken for treatment lift.
 
-## What I did
+FTC advertising guidance shaped a separate control. Faster production still required truthful, supportable claims; urgency was not permission to overstate the offer.
 
-- I kept the strongest 60% of the baseline live and tested new creative, intent, and roles on 30% of budget.
-- I set a $75 CPA kill switch and used a three-day decision read before scaling.
-- I separated a three-week high-intent tourniquet from a subsequent awareness rebuild.
-- I maintained unchanged holdout campaigns and evaluated six-month retention, not only immediate CPA.
+## The immediate repair and the next-quarter system were different
 
-## The results
+I used high-intent acquisition as a three-week tourniquet, then rebuilt awareness separately. This avoided the common mistake of declaring victory after harvesting existing demand.
+
+For the awareness work, I preserved a minimum share of genuinely new visitors and followed six-month retention. That allowed me to test whether lower acquisition cost represented better customers or simply cheaper clicks.
+
+## What changed in 14 days
 
 - CPA fell from $65 to $48.
 - CTR increased 25%.
-- The campaign added 200 qualified leads and avoided $75K in waste.
-- Six-month retention was 20% higher, and next-quarter baseline efficiency remained roughly 20% stronger.
+- The campaign produced 200 additional qualified leads.
+- Dead-page waste fell below 2%, avoiding approximately $75,000 in spend.
+- Six-month retention was 20% higher.
+- The following quarter's baseline efficiency remained about 20% stronger.
 
-## Decisions and trade-offs
+## The growth lesson
 
-- I did not conflate high-intent recovery with long-term demand creation.
-- I scaled only after the treatment beat an unchanged control.
-- I preserved a minimum share of genuinely new visitors during awareness rebuilding.
+I do not treat a deteriorating funnel as one undifferentiated failure. I preserve the working baseline, isolate the mechanism, predefine the stop condition, and follow the customer beyond conversion. That approach produces a faster answer while protecting both current-quarter economics and future demand creation.
 
-## How I led
+## External foundations
 
-I used shared live metrics to turn a budget crisis into a fast, reversible testing program across media, creative, web, CRM, and sales stakeholders.
+These sources supplied the primary experimentation and advertising methodology. My resume establishes employment chronology only.
 
-## Why I chose this approach
-
-I used [U.S. FTC - Advertising and Marketing Basics](https://www.ftc.gov/business-guidance/advertising-marketing) to ground advertising-claim and substantiation standard. I used [World Bank - Impact Evaluation in Practice](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice) to ground causal-measurement and counterfactual framework.
-
-## Sources and external context
-
-I used independent methodology and market evidence to shape the work. The resume link above is included only to establish the employment timeline.
-
-| Source | How it informed my work | Timing |
-|---|---|---|
-| [U.S. FTC - Advertising and Marketing Basics](https://www.ftc.gov/business-guidance/advertising-marketing) | I used it to ground advertising-claim and substantiation standard. | — |
-| [World Bank - Impact Evaluation in Practice](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice) | I used it to ground causal-measurement and counterfactual framework. | — |
+| Source | How I applied it |
+|---|---|
+| [World Bank — Impact Evaluation in Practice](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice) | I used its counterfactual and causal-measurement principles to preserve a credible control and distinguish lift from market movement. |
+| [U.S. Federal Trade Commission — Advertising and Marketing Basics](https://www.ftc.gov/business-guidance/advertising-marketing) | I used its truthful-advertising and claim-substantiation guidance during rapid creative production. |

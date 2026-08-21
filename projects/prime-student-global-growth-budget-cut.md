@@ -1,58 +1,51 @@
-# Prime Student — Global Growth Under a 50% Budget Cut
+# Growing Prime Student Across Ten Markets on Half the Budget
 
-## What I worked on
+I led this growth program during my [AWS experience beginning in July 2024](https://github.com/beastofbayarea/shivam-singh-growth-marketing/blob/main/shivam-singh-growth-marketing.pdf).
 
-I completed this work during my [AWS experience from 2024 to present](https://github.com/beastofbayarea/shivam-singh-growth-marketing/blob/main/shivam-singh-growth-marketing.pdf).
+The program had a $1 million budget—half the prior year's spend—and a ten-market remit. Internal products were bidding against one another for the same student audience, bespoke local production would have cost about $2 million, and a mid-campaign change in youth-ad rules throttled 65% of direct-response assets.
 
-I built a reusable ten-market growth engine under a 50% budget cut. Privacy-safe audience suppression, modular localization, tiered market investment, and channel portability eliminated internal bidding waste and enabled a 48-hour response when youth-ad rules throttled most direct-response assets.
+I built the system around three forms of portability: audiences could be suppressed across internal products, creative could be recomposed locally, and the campaign could change channels without restarting production.
 
-## At a glance
+## First, I stopped paying twice for the same person
 
-- I led a ten-market student growth program with a $1M budget—half the prior-year spend—and reduced internal audience overlap from 40% to 8%.
-- I created a modular creative system that cut production cost 80% and reduced market adaptation from three days to six hours.
-- Acquired 3.2M subscribers, delivered $48M in U.S. revenue, and improved ROAS from 2.5x to 3.6x while maintaining full youth-policy compliance.
+I used consented first-party signals and salted hashes to suppress duplicated targeting across participating internal products. Audience overlap fell from 40% to 8%, reclaiming roughly $400,000 in media capacity.
 
-## The situation
+Privacy was a product constraint, not an optimization footnote. The matching approach minimized the shared identity surface while still letting teams coordinate exclusion. FTC advertising guidance also set the baseline for truthful, supportable claims as the offer moved through multiple formats and markets.
 
-Internal products competed for the same student audience, bespoke local creative would have cost $2M, and mid-campaign policy changes throttled 65% of direct-response assets.
+## Creative became a composable system
 
-## What I needed to accomplish
+Instead of producing a unique asset from scratch for every country and channel, I separated four modules: environment, benefit, hook, and format. Local reviewers could recombine approved modules and adjust cultural context without rebuilding the core campaign.
 
-I needed to deliver efficient multi-market subscriber growth while preserving privacy, cultural relevance, and the ability to change channels without restarting production.
+That reduced production cost 80%, saved approximately $1.2 million, and shortened market adaptation from three days to six hours. The system preserved local judgment; modularity did not mean literal translation.
 
-## What I did
+## The policy shock tested the architecture
 
-- I used consented first-party signals and salted hashes to suppress duplicate targeting across internal products.
-- I designed interchangeable environment, benefit, hook, and format modules with local review.
-- I pivoted to creator-led lifestyle content and owned-channel remarketing within 48 hours of the policy shock.
-- I tiered budgets across driver, scaler, and incubator markets according to ARPU, volume, and learning role.
+When youth-ad rules restricted most direct-response assets, I redirected the program within 48 hours toward creator-led lifestyle content and compliant owned-channel remarketing. Because the message components already existed independently of one ad format, the change did not require a new production cycle.
 
-## The results
+I protected execution teams from excessive reporting during the pivot and used a short decision cadence across audience, creative, privacy, market, and channel owners.
 
-- Audience overlap fell from 40% to 8%, reclaiming roughly $400K in media capacity.
-- Creative cost fell 80%, with approximately $1.2M in savings.
-- The program acquired 3.2M subscribers and produced $48M in U.S. revenue.
-- ROAS improved to 3.6x on half the prior-year budget.
+## Markets had different jobs
 
-## Decisions and trade-offs
+I grouped countries as drivers, scalers, or incubators based on average revenue per user, volume, marginal return, and learning value. A small market could retain investment if it answered an important localization or channel question; a large market did not receive budget simply because it was large.
 
-- I engineered campaign modularity before a crisis occurs.
-- I used owned and creator channels when platform policy restricts direct response.
-- I treated the deduplication prototype as temporary and hand it off after value was proven.
+The World Bank's impact-evaluation methodology influenced the measurement design. I used controlled comparisons where possible and did not treat a top-line subscriber increase as proof that every market or creative module produced incremental lift.
 
-## How I led
+## The portfolio outcome
 
-I protected execution teams from reporting overhead during the policy pivot and synchronized audience, creative, privacy, market, and channel owners around one growth architecture.
+- The program acquired 3.2 million subscribers.
+- U.S. revenue reached $48 million.
+- Return on ad spend improved from 2.5 times to 3.6 times.
+- The result was delivered on half the prior-year budget while maintaining youth-policy compliance.
 
-## Why I chose this approach
+## What made the system resilient
 
-I used [U.S. FTC - Advertising and Marketing Basics](https://www.ftc.gov/business-guidance/advertising-marketing) to ground advertising-claim and substantiation standard. I used [World Bank - Impact Evaluation in Practice](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice) to ground causal and counterfactual measurement methodology.
+The decisive work happened before the policy shock: deduplicated audiences, modular creative, tiered market roles, and measurement that could survive a channel change. I now design global growth programs for substitution from the start. A rule, platform, or local constraint will change; the growth architecture should be able to move without losing its evidence or its voice.
 
-## Sources and external context
+## External foundations
 
-I used independent methodology and market evidence to shape the work. The resume link above is included only to establish the employment timeline.
+These sources supplied the primary advertising and measurement methodology. My resume establishes employment chronology only.
 
-| Source | How it informed my work | Timing |
-|---|---|---|
-| [U.S. FTC - Advertising and Marketing Basics](https://www.ftc.gov/business-guidance/advertising-marketing) | I used it to ground advertising-claim and substantiation standard. | — |
-| [World Bank - Impact Evaluation in Practice](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice) | I used it to ground causal and counterfactual measurement methodology. | — |
+| Source | How I applied it |
+|---|---|
+| [U.S. Federal Trade Commission — Advertising and Marketing Basics](https://www.ftc.gov/business-guidance/advertising-marketing) | I used its truthful-advertising and substantiation principles across localized creative and channel changes. |
+| [World Bank — Impact Evaluation in Practice](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice) | I used its counterfactual approach to distinguish incremental market and creative lift from aggregate growth. |
